@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/powerctrlimage">
+        <file>powerctrlimage/powerclose.png</file>
+        <file>powerctrlimage/poweropen.png</file>
+    </qresource>
+</RCC>

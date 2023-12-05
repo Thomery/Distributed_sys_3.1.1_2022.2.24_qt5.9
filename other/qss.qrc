@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file>qss/psblack.css</file>
+        <file>qss/psblack_2560.css</file>
+        <file>qss/psblack_3840.css</file>
+        <file>qss/Science_2560.css</file>
+        <file>qss/Science_3840.css</file>
+        <file>qss/Science_1920.css</file>
+    </qresource>
+</RCC>

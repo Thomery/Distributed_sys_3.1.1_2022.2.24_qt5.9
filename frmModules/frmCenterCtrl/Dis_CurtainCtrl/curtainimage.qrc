@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/curtainimage">
+        <file>curtainctrlimage/curtain_close.png</file>
+        <file>curtainctrlimage/curtain_down.png</file>
+        <file>curtainctrlimage/curtain_nowdown.png</file>
+        <file>curtainctrlimage/curtain_nowup.png</file>
+        <file>curtainctrlimage/curtain_open.png</file>
+        <file>curtainctrlimage/curtain_stop.png</file>
+        <file>curtainctrlimage/curtain_stopclose.png</file>
+        <file>curtainctrlimage/curtain_up.png</file>
+        <file>curtainctrlimage/cu_stop_checked.png</file>
+    </qresource>
+</RCC>

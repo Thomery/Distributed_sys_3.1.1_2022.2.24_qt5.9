@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/c_image">
+        <file>c_image/c_add.png</file>
+        <file>c_image/c_add_pressed.png</file>
+        <file>c_image/c_down.png</file>
+        <file>c_image/c_down_pressed.png</file>
+        <file>c_image/c_left.png</file>
+        <file>c_image/c_left_pressed.png</file>
+        <file>c_image/c_right.png</file>
+        <file>c_image/c_right_pressed.png</file>
+        <file>c_image/c_sub.png</file>
+        <file>c_image/c_sub_pressed.png</file>
+        <file>c_image/c_up.png</file>
+        <file>c_image/c_up_pressed.png</file>
+        <file>c_image/c_stop.png</file>
+        <file>c_image/c_stop_pressed.png</file>
+    </qresource>
+</RCC>

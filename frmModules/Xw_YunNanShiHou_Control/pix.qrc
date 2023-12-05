@@ -1,0 +1,54 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pic/bitbug_favicon.ico</file>
+        <file>pic/feiji.png</file>
+        <file>pic/normale.png</file>
+        <file>pic/ptznormal.png</file>
+        <file>pic/warning (2).png</file>
+        <file>pic/监控.png</file>
+        <file>pic/监控聚合平台.png</file>
+        <file>pic/选项卡关闭按钮.png</file>
+        <file>pic/音频 (1).png</file>
+        <file>pic/音频 (2).png</file>
+        <file>pic/圆点大 (1).png</file>
+        <file>pic/追踪溯源.png</file>
+        <file>pic/Volume-Plus-.png</file>
+        <file>pic/Volume-Plus+.png</file>
+        <file>pic/button_check.png</file>
+        <file>pic/button_show.png</file>
+        <file>pic/button_war.png</file>
+        <file>pic/定位 (2).png</file>
+        <file>pic/跟踪目标设置.png</file>
+        <file>pic/开机.png</file>
+        <file>pic/枪机-灰.png</file>
+        <file>pic/放大 (1).png</file>
+        <file>pic/缩小 (1).png</file>
+        <file>pic/audio_open.png</file>
+        <file>new_pixConfig/honeycomb_1.jpg</file>
+        <file>new_pixConfig/honeycomb_2.jpeg</file>
+        <file>new_pixConfig/honeycomb_3.jpeg</file>
+        <file>new_pixConfig/honeycomb_4.png</file>
+        <file>new_pixConfig/OK.png</file>
+        <file>new_pixConfig/OK2.png</file>
+        <file>new_pixConfig/按钮大2.png</file>
+        <file>new_pixConfig/按钮小.png</file>
+        <file>new_pixConfig/按钮小2.png</file>
+        <file>new_pixConfig/边框小.png</file>
+        <file>new_pixConfig/边框右.png</file>
+        <file>new_pixConfig/关.png</file>
+        <file>new_pixConfig/箭头上.png</file>
+        <file>new_pixConfig/箭头上2.png</file>
+        <file>new_pixConfig/箭头下.png</file>
+        <file>new_pixConfig/箭头下2.png</file>
+        <file>new_pixConfig/箭头右.png</file>
+        <file>new_pixConfig/箭头右2.png</file>
+        <file>new_pixConfig/箭头左.png</file>
+        <file>new_pixConfig/箭头左2.png</file>
+        <file>new_pixConfig/开.png</file>
+        <file>new_pixConfig/天线倒伏.png</file>
+        <file>new_pixConfig/照明灯.png</file>
+        <file>new_pixConfig/39ca390e4c72cd926d18332bb8ae52e4_fullsize.png</file>
+        <file>new_pixConfig/按钮大.png</file>
+        <file>pic/audio_close.png</file>
+    </qresource>
+</RCC>

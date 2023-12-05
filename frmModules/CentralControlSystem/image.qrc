@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Image/a12.png</file>
+        <file>Image/a13.png</file>
+        <file>Image/biankuang1.png</file>
+        <file>Image/biankuang2.png</file>
+        <file>Image/c_sub.png</file>
+        <file>Image/c_sub_pressed.png</file>
+        <file>Image/close_2.png</file>
+        <file>Image/Frame_Top_2.png</file>
+        <file>Image/LineEdit.png</file>
+        <file>Image/MainBgImage4.png</file>
+        <file>Image/Minimize_2.png</file>
+        <file>Image/tubiao1.png</file>
+        <file>Image/tubiao2.png</file>
+        <file>Image/tubiao22.png</file>
+    </qresource>
+</RCC>

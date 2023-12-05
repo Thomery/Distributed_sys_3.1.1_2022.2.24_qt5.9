@@ -1,0 +1,3677 @@
+QWidget QWidget{
+	/*background:#01050E;*/
+	background:#032433;
+	font-family:"Microsoft YaHei";
+}
+QLabel,QPushButton,QComboBox,QToolButton,QFrame,QCheckBox,QGroupBox,QLineEdit,QListWidget,QPlainTextEdit,QSpinBox,QTabWidget,QTableView{
+	font-family:"Microsoft YaHei";
+}
+/*********所有的菜单************/
+QMenu {
+     background:qlineargradient(spread:pad,x1:0,x2:1,y1:0,y2:0,stop: 0 #0c3d53 stop: 1 #032433);
+     border: 1px solid #06FFFF;
+	 border-radius:5px;
+	 color:#06FFFF;
+}
+QMenu::item {
+	background-color: transparent;
+	padding-left:9px;
+	padding-right:9px;
+	margin:0px 8px;
+	border-bottom:1px solid #06FFFF;
+	min-height:40px;
+}
+QMenu::item:selected {
+	background-color: #09989F;
+}
+/*********所有的checkBox********/
+QCheckBox{
+	color:#ffffff;
+	border:0px;
+}
+QCheckBox::indicator{
+	width:30px;
+	height:30px;
+}
+QCheckBox::indicator:unchecked {
+	image: url(:/new/prefix1/other/image/ScienceImage/checkBoxUnChecked.png);
+}
+QCheckBox::indicator:checked{
+	image: url(:/new/prefix1/other/image/ScienceImage/checkBoxChecked.png);
+}
+
+/*********所有的comboBox****************/
+QComboBox{
+	background:transparent;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;	
+	color:#06FFFF;
+	min-height:40px;
+	min-width:120px;
+	padding-left:10px;
+	border-image:url(:new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QComboBox QAbstractItemView{
+	background:qlineargradient(spread:pad,x1:0,x2:1,y1:0,y2:0,stop: 0 #0c3d53 stop: 1 #032433);
+	color:#06FFFF;
+	border:1px solid #06FFFF;
+	border-radius:10px;
+	font-family:"Microsoft YaHei";
+	selection-color:#06FFFF;
+	selection-background-color:#09989F;
+	alternate-background-color:#0c3d53;
+	font-size:16px;
+	outline:0px;
+	min-height:60px;
+	padding-right:10px;
+	padding-right:10px;
+}
+QComboBox QAbstractItemView::item{
+	height:40px;
+}
+QComboBox::drop-down{
+	width:30px;
+	background:transparent;
+	border:0px; 
+}
+QComboBox::down-arrow{
+	image: url(:/new/prefix1/other/image/ScienceImage/cbox_down.png);
+	height:30px;
+	width:30px;
+}
+
+/*************所有的ScrollArea************/
+QScrollBar:horizontal{
+border: none;
+background: #032433;
+height:8px;
+margin: 0px 0 0px 0;
+}
+QScrollBar::handle:horizontal {
+background:#06FFFF;
+min-height: 10px;
+border-radius: 5px;
+border: none;
+}
+QScrollBar::add-line:horizontal {
+border: 0px;
+background: #032433;
+height: 0px;
+subcontrol-position: bottom;
+subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal {
+border: 0px;
+background: #032433;
+height: 0px;
+subcontrol-position: top;
+subcontrol-origin: margin;
+}
+QScrollBar::add-page:horizontal,QScrollBar::sub-page:horizontal {
+background: none;
+width: 0px;
+height: 0px;
+}
+QScrollBar:vertical{
+	border:0px;
+	background:#032433;
+	width:10px;
+	margin: 0px 0 0px 0;
+}
+QScrollBar::handle:vertical{
+	background:#06FFFF;
+	width: 10px;
+	border: 0px;
+}
+QScrollBar::add-line:vertical {
+border: 0px;
+background: #032433;
+height: 0px;
+subcontrol-position: bottom;
+subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical {
+border: 0px;
+background: #032433;
+height: 0px;
+subcontrol-position: top;
+subcontrol-origin: margin;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical {
+background: none;
+width: 0px;
+height: 0px;
+}
+/********所有的TableView**********/
+QTableView{
+	color:#06FFFF;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	/*alternate-background-color:#031817;*/
+	alternate-background-color:#031a25;
+	background:transparent;
+	selection-background-color:#06FFFF;
+	selection-color:#032433;
+}
+QHeaderView::section {
+	/*background:#043936;*/
+	background:#0c3d53;
+	color:#06FFFF;
+	border:none;
+	height:40px;
+	font-family:Microsoft YaHei;
+	font-size:18px;
+}
+
+/***********所有的QListWidget*********/
+QListWidget{
+	background:transparent;
+	font-size:16px;
+	font-family:"Microsoft YaHei";
+	outline:0px;
+	border:1px solid #06FFFF;
+	border-radius:10px;
+}
+QListWidget::item{
+	background:transparent;
+    color:#06FFFF;
+    height:40px;
+	border-radius:20px;
+    border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+	margin:5px,5px,0px,0px;
+	font-size:16px;
+	padding-left:10px;
+	padding-right:10px;
+}
+QListWidget::item::selected:active{
+    color:#032433;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao_Checked.png);
+	background:transparent;
+}
+QListWidget::item:selected{
+	color:#032433;
+    border:0px;
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao_Checked.png);
+}
+/***主界面***/
+QWidget#widget_title{
+	background:qlineargradient(spread:pad,x1:0,x2:0,y1:0,y2:1,  
+                                      stop: 0 #015056
+                                      stop: 1 #032433);
+
+	font-family:"Microsoft YaHei";
+	color:#06FFFF;
+	min-height:60px;
+	max-height:60px;
+}
+QWidget#widget_title QWidget,QPushButton,QLabel{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+}
+QWidget#widget_title QPushButton{
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	min-height:60px;
+	min-width:120px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_2.png);
+}
+QWidget#widget_title QPushButton:pressed{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+QWidget#widget_title QWidget#widget{
+	border-image: url(:/new/prefix1/other/image/ScienceImage/Frame_Top_2.png);
+	min-width:600px;
+}
+QWidget#widget_title QLabel#label{
+	min-height:30px;
+	max-height:30px;
+	min-width:30px;
+	max-width:30px;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/Logo_Small.png);
+}
+QWidget#widget_title QLabel#label_3{
+	font-family:"Microsoft YaHei";
+	font-size:26px;
+}
+QWidget#widget_mainwid1{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#widget_mainwid1 QWidget#widget_1 QPushButton{
+	background:transparent;
+	border:0px;
+	color:#06FFFF;
+	min-height:60px;
+	min-width:120px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_2.png);
+}
+QWidget#widget_mainwid1 QWidget#widget_1 QPushButton:pressed{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+QWidget#widget_title QPushButton#pushButton{  /*设置缩小按钮*/
+	min-height:40px;
+	max-height:40px;
+	min-width:40px;
+	max-width:40px;
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Minimize_2.png);
+}
+QWidget#widget_title QPushButton#pushButton:pressed{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Minimize_2.png);
+}
+QWidget#widget_title QPushButton#pushButton_3{
+	min-height:40px;
+	max-height:40px;
+	min-width:40px;
+	max-width:40px;
+	background:transparent;
+	border:0px;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/close_2.png);
+}
+QWidget#widget_title QPushButton#pushButton_3:pressed{
+	border-image: url(:/new/prefix1/other/image/ScienceImage/close_2.png);
+}
+QWidget#widget_mainwid1 QWidget#widget_6{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#widget_mainwid1 QScrollArea#scrollArea{
+	background:transparent;
+	border:0px;
+}
+/*设置场景及大屏控制*/
+QWidget#widget_setmy{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#widget_setmyshow{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#widget_setmyshow QWidget#widget_3{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/widget_showMy.png);
+}
+QWidget#widget_setmyshow QWidget#nothingWid QLabel{
+	background:transparent;
+	color:#06FFFF ;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#widget_setmenu{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:60px;
+	max-height:60px;
+}
+QWidget#widget_setmenu QScrollArea{
+	border:0px;
+	background:transparent;
+}
+QWidget#widget_setmenu .QWidget{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#widget_setmenu QLabel{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#widget_setmenu QCheckBox{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#widget_setmenu QComboBox{
+	min-width:260px;
+	max-width:260px;
+}
+QWidget#widget_setmenu QPushButton{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0px;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/btn_to_ALL_2.png");
+	min-height:60px;
+	min-width:120px;
+}
+QWidget#widget_setmenu QPushButton:pressed{
+	background:transparent;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png");
+}
+QWidget#widget_setmenu QPushButton:checked{
+	background:transparent;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png");
+}
+QWidget#widget_setmenu QPushButton#btn_OperationCut{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	color:#06FFFF;
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/PreviewOperation.png);
+	min-height:40px;
+	min-width:120px;
+}
+QWidget#widget_setmenu QPushButton#btn_OperationCut:checked{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/RealtimeOperation.png);
+}
+QWidget#widget_setmenu QPushButton#btn_switchyuan{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0 px;
+	min-height:60px;
+	min-width:120px;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/btn_to_ALL_2.png");
+}
+QWidget#widget_setmenu QPushButton#btn_switchyuan:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+QWidget#widget_setmenu QPushButton#btn_shangqiang:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+QWidget#widget_setmenu QPushButton#pushButton_5:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+QWidget#widget_setmenu QPushButton#pushButton_6:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+QWidget#widget_setmenu QPushButton#pushButton_7:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+QWidget#widget_setmenu QPushButton#pushButton_8:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+QWidget#widget_setmenu QPushButton#btn_yuanuppage{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Left_Light.png);
+	min-height:40px;
+	max-height:40px;
+	min-width:40px;
+	max-width:40px;
+}
+QWidget#widget_setmenu QPushButton#btn_yuanuppage:pressed{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Left_DarkGreen.png);
+}
+QWidget#widget_setmenu QPushButton#btn_yuandownpage{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Right_Light.png);
+	min-height:40px;
+	max-height:40px;
+	min-width:40px;
+	max-width:40px;
+}
+QWidget#widget_setmenu QPushButton#btn_yuandownpage:pressed{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Right_DarkGreen.png);
+}
+QWidget#widget_setmenu QPushButton#btnpush_screen:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+QWidget#widget_bmpreview{
+	background:transparent;
+}
+QWidget#widget_bmpreview QScrollArea{
+	border:0px;
+}
+QWidget#widget_bmpreview QListWidget::item{
+	background:transparent;
+    color:transparent;
+	border-radius:0px;
+    border:0px;
+	border-image:none;
+	margin:0px,0px,0px,0px;
+	padding-left:0px;
+	padding-right:0px;
+}
+QWidget#widget_bmpreview QListWidget::item::selected:active{
+    color:transparent;
+	border:0px;
+	border-image:none;
+	background:transparent;
+}
+QWidget#widget_bmpreview QListWidget::item:selected{
+	color:transparent;
+    border:0px;
+	background:transparent;
+	border-image:none;
+}
+QWidget#widget_bmgroupset{
+	background:transparent;
+}
+QWidget#widget_bmgroupset QPushButton#btn_bmswitch,QPushButton#pushButton_22{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0px;
+	min-height:60px;
+	min-width:120px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_2.png);
+}
+QWidget#widget_bmgroupset QPushButton#btn_bmswitch:pressed,QPushButton#pushButton_22:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+QWidget#widget_bmgroupset QPushButton#pushButton_11{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0 px;
+	min-height:50px;
+	min-width:50px;
+	max-height:50px;
+	max-width:50px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/oneFP.png);
+}
+QWidget#widget_bmgroupset QPushButton#pushButton_11:checked{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/oneFP_Pressed.png);
+}
+QWidget#widget_bmgroupset QPushButton#pushButton_12{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/LeftAndRightFP.png);
+	min-height:50px;
+	min-width:50px;
+	max-height:50px;
+	max-width:50px;
+}
+QWidget#widget_bmgroupset QPushButton#pushButton_12:checked{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/LeftAndRightFP_Checked.png);
+}
+QWidget#widget_bmgroupset QPushButton#pushButton_13{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/UpAndDownFP.png);
+	min-height:50px;
+	min-width:50px;
+	max-height:50px;
+	max-width:50px;
+}
+QWidget#widget_bmgroupset QPushButton#pushButton_13:checked{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/UpAndDownFP_Checked.png);
+}
+QWidget#widget_bmgroupset QPushButton#pushButton_14{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/FourFP.png);
+	min-height:50px;
+	min-width:50px;
+	max-height:50px;
+	max-width:50px;
+}
+QWidget#widget_bmgroupset QPushButton#pushButton_14:checked{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/FourFP_Checked.png);
+}
+QWidget#widget_bmgroupset QPushButton#pushButton_15{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/NineFP.png);
+	min-height:50px;
+	min-width:50px;
+	max-height:50px;
+	max-width:50px;
+}
+QWidget#widget_bmgroupset QPushButton#pushButton_15:checked{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/NineFP_Checked.png);
+}
+QWidget#widget_bmgroupset QPushButton#btn_bmpreviewlast{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Left_Light.png);
+	min-height:40px;
+	min-width:40px;
+	max-width:40px;
+	max-height:40px;
+}
+QWidget#widget_bmgroupset QPushButton#btn_bmpreviewlast:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Left_DarkGreen.png);
+}
+QWidget#widget_bmgroupset QPushButton#btn_bmpreviewnext{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Right_Light.png);
+	min-height:40px;
+	min-width:40px;
+	max-width:40px;
+	max-height:40px;
+}
+QWidget#widget_bmgroupset QPushButton#btn_bmpreviewnext:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Right_DarkGreen.png);
+}
+QWidget#widget_bmgroupset QToolButton{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0 px;
+	min-height:60px;
+	min-width:120px;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/btn_to_ALL_2.png");
+}
+QWidget#widget_bmgroupset QToolButton:checked{
+	border-image:url(":/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png");
+}
+QWidget#widget_bmgroupset QComboBox{
+	min-width:260px;
+	max-width:260px;
+}
+QWidget#widget_showmy{
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+}
+QWidget#kvmstackedwid{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+}
+QWidget#kvmstackedwid QWidget{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+}
+QWidget#kvmstackedwid QWidget#widget_kvmmenu{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	border:0 px;
+	min-height:60px;
+	max-height:60px;
+}
+QWidget#kvmstackedwid QWidget#widget_kvmmenu QComboBox{
+	min-width:300px;
+	max-width:300px;
+}
+QWidget#kvmstackedwid QWidget#widget_kvmmenu QPushButton{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0 px;
+	min-height:60px;
+	min-width:120px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_2.png);
+}
+QWidget#kvmstackedwid QWidget#widget_kvmmenu QPushButton:pressed{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+/****输出节点音频****/
+QWidget#VoiceWid{
+	background:transparent;
+}
+QWidget#widget_voicewid QLabel{
+	background:transparent;
+	font-size:16px;
+	font-family:"Microsoft YaHei";
+	color:#06FFFF;
+}
+QWidget#widget_voicewid QPushButton#pushButton{
+	background:transparent;
+	min-height:20px;
+	max-height:20px;
+	min-width:20px;
+	max-width:20px;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/Voice_Open.png); 
+}
+QWidget#widget_voicewid QPushButton#pushButton:checked{
+	background:transparent;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/Voice_Close.png); 
+}
+QWidget#widget_voicewid QSlider{
+	background:transparent;
+}
+QSlider::groove:horizontal {
+border: 1px solid #4A708B;
+background: transparent;
+height: 7px;
+border-radius: 3px;
+padding-left:-1px;
+padding-right:-1px;
+}
+QSlider::sub-page:horizontal {
+background:#06FFFF;
+border: 0px;
+height: 7px;
+border-radius: 3px;
+}
+QSlider::add-page:horizontal {
+background:#22A3A9;
+border: 0px;
+height: 7px;
+border-radius: 3px;
+}
+QSlider::handle:horizontal {
+    background: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, 
+    stop:0.6 #06FFFF, stop:0.778409 #06FFFF);
+    width: 15px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    border-radius: 7px;
+}
+QSlider::handle:horizontal:hover {
+    background: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.6 #06FFFF, 
+    stop:0.778409 rgba(255, 255, 255, 255));
+    width: 15px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    border-radius: 7px;
+}
+
+/*********场景里面的中控窗口**********/
+QWidget#frmSceneModel1{
+	background:transparent;
+}
+QWidget#frmSceneModel1 QScrollArea#scrollArea{
+	background:transparent;
+	border:0px;
+}
+QWidget#frmSceneModel2{
+	background:transparent;
+}
+QWidget#frmSceneModel2 QScrollArea#scrollArea{
+	background:transparent;
+	border:0px;
+}
+QWidget#frmSceneModel3{
+	background:transparent;
+}
+QWidget#frmSceneModel3 QScrollArea#scrollArea{
+	background:transparent;
+	border:0px;
+}
+QWidget#frmSceneModel8{
+	background:transparent;
+}
+QWidget#frmSceneModel8 QScrollArea#scrollArea{
+	background:transparent;
+	border:0px;
+}
+/****悬浮菜单栏***/
+QWidget#DisMenu{
+	background:transparent;
+}
+QWidget#DisMenu .QWidget{
+	background:transparent;
+	border:0px;
+	border-radius:16px;
+}
+QWidget#DisMenu QWidget#widget_26{
+	border-image:url(":/new/prefix1/other/image/ScienceImage/MessageBoxWid.png");
+}
+QWidget#DisMenu .QLabel{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";	
+	font-size:18px;
+}
+QWidget#DisMenu QPushButton{
+	min-height:80px;
+	max-height:80px;
+	min-width:80px;
+	max-width:80px;
+}
+QWidget#DisMenu QPushButton#btn_1{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/ScienceImage/DpCtrl.png);
+}
+QWidget#DisMenu QPushButton#btn_3{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/ScienceImage/KvmManage.png);
+}
+QWidget#DisMenu QPushButton#btn_2{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/ScienceImage/DpManage.png);
+}
+QWidget#DisMenu QPushButton#btn_4{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/ScienceImage/BmSearch.png);
+}
+QWidget#DisMenu QPushButton#btn_5{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/ScienceImage/BmManage.png);
+}
+QWidget#DisMenu QPushButton#btn_6{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/ScienceImage/StateCheck.png);
+}
+QWidget#DisMenu QPushButton#btn_7{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/ScienceImage/PlanManage.png);
+}
+QWidget#DisMenu QPushButton#btn_8{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/ScienceImage/CmaeraCtrl.png);
+}
+QWidget#DisMenu QPushButton#btn_9{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/ScienceImage/MapPreviw.png);
+}
+QWidget#DisMenu QPushButton#btn_10{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/ScienceImage/UserManage.png);
+}
+QWidget#DisMenu QPushButton#btn_12{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/ScienceImage/SysSet.png);
+}
+QWidget#DisMenu QPushButton#btn_11{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/ScienceImage/EnvCtrl.png);
+}
+QWidget#DisMenu QPushButton#btn_13{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/ScienceImage/record3_2.png);
+}
+/*****信号搜索******/
+QFrame#frame_bmsearchmain QFrame#frame{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/XinHao_SheZhi_border1.png);
+}
+QFrame#frame_bmsearchmain QFrame#frame_2{
+	background:transparent;
+	min-width:400px;
+	max-width:400px;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/XinHao_SheZhi_border2.png);
+}
+QFrame#frame_bmsearchmain QTabWidget::pane{
+	background:transparent;
+	border:none;
+}
+QFrame#frame_bmsearchmain QTabBar::tab{
+	background:transparent;	
+	color:#06FFFF;
+}
+QFrame#frame_bmsearchmain .QWidget{
+	background:transparent;
+}
+QFrame#frame_bmsearchmain QLineEdit{
+	background:transparent;
+	border:0px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	padding-left:10px;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png");
+}
+QFrame#frame_bmsearchmain QLabel{
+	background:transparent;
+	border:0px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QFrame#frame_bmsearchmain QPushButton#btnSearch{
+	background:qlineargradient(spread:pad,x1:0,x2:1,y1:0,y2:0,stop: 0 #0c3d53 stop: 1 #032433);
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	border:1px solid #06FFFF;
+	min-height:40px;
+	border-radius:20px;
+}
+QFrame#frame_bmsearchmain QPushButton#btnSearch:pressed{
+	background:#09989F;
+	color:#06FFFF;
+	border:1px solid #22A3A9;
+}
+QFrame#frame_bmsearchmain QWidget#widget_2 QPushButton{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	border:0px;
+	min-height:60px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_2.png);
+}
+QFrame#frame_bmsearchmain QWidget#widget_2 QPushButton:pressed{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+/*****信号管理*****/
+QFrame#frame_bmmanage{
+	background:transparent;
+}
+QFrame#frame_bmmanage_gboxRight{
+	background:transparent;
+	min-width:400px;
+	max-width:400px;
+	color:#06FFFF;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/XinHao_SheZhi_border2.png");
+}
+QFrame#frame_bmmanage .QWidget{
+	background:transparent;
+}
+QFrame#frame_bmmanage QWidget#widget_2{
+	background:transparent;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/XinHao_SheZhi_border1.png");
+}
+QFrame#frame_bmmanage QWidget#widget QPushButton{
+	background:transparent;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/btn_to_ALL_2.png");
+	color:#06FFFF;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:60px;
+	min-width:120px;
+}
+QFrame#frame_bmmanage QWidget#widget QPushButton:pressed{
+	background:transparent;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png");
+}
+QFrame#frame_bmmanage_gboxRight QLabel{
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	background:transparent;
+}
+QFrame#frame_bmmanage_gboxRight QLineEdit{
+	background:transparent;
+	color:#06FFFF;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png");
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	border:0px;
+	padding-left:10px;
+}
+QFrame#frame_bmmanage_gboxRight QSpinBox{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	border:0px;
+	padding-left:10px;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png");
+}
+/******用户设置*****/
+QWidget#frmlogset{
+	background:transparent;
+}
+QWidget#frmlogset QFrame{
+	background:transparent;
+}
+QWidget#frmlogset QFrame#frame_2{
+	border:0px;
+}
+QWidget#frmlogset QFrame QWidget{
+	background:transparent;
+}
+QWidget#frmlogset QWidget#widget_3{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/XinHao_SheZhi_border1.png);
+}
+QWidget#frmlogset QWidget#widget{
+	background:transparent;
+	border:0px;
+	min-width:400px;
+	max-width:400px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/XinHao_SheZhi_border2.png);
+}
+QWidget#frmlogset QWidget#widget_8{
+	background:transparent;
+}
+QWidget#frmlogset QWidget#widget_4 QPushButton{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_2.png);
+	color:#06FFFF;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:60px;
+	min-width:120px;
+	max-height:60px;
+	max-width:120px;
+}
+QWidget#frmlogset QWidget#widget_4 QPushButton:pressed{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+QWidget#frmlogset QWidget#widget QLabel{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#frmlogset QWidget#widget QLineEdit{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	border:0px;
+	padding-left:10px;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png");
+}
+/*****状态检测****/
+QWidget#DeviceState{
+	background:transparent;
+}
+QWidget#DeviceState QWidget#widget{
+	background:transparent;
+}
+QWidget#DeviceState QWidget#widget_2{
+	min-height:60px;
+	max-height:60px;
+	font-family:"Microsoft YaHei";
+	font-size:18px;
+}
+QWidget#DeviceState QWidget#widget_20{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/XinHao_SheZhi_border1.png);
+}
+QWidget#DeviceState QWidget#widget_16{
+	background:transparent;
+	min-width:400px;
+	max-width:400px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/XinHao_SheZhi_border2.png);
+}
+QWidget#DeviceState QPushButton{
+	color:#06FFFF;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	background:transparent;
+	min-height:60px;
+	max-height:60px;
+	min-width:120px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_2.png);
+}
+QWidget#DeviceState QPushButton:pressed{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+QWidget#DeviceState QWidget#widget_16 QPushButton{
+	color:#06FFFF;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	background:transparent;
+	min-height:60px;
+	max-height:60px;
+	min-width:120px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_2.png);
+}
+QWidget#DeviceState QWidget#widget_16 QPushButton:pressed{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+QWidget#DeviceState QWidget#widget_16 QLabel{
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	background:transparent;
+}
+QWidget#DeviceState QPlainTextEdit{
+	color:#06FFFF;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	background:transparent;
+}
+QWidget#DeviceState QWidget#widget_15{
+	color:#06FFFF;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	background:transparent;
+}
+/*****系统设置*****/
+QFrame#frame_sysset{
+	background:transparent;
+	border:0px;
+}
+QFrame#frame_sysset QWidget#widget_6{
+	background:transparent;
+	border:0px;
+}
+QFrame#frame_sysset QWidget#widget_7{
+	background:transparent;
+	min-height:660px;
+	min-width:1000px;
+	max-width:1000px;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/XinHao_SheZhi_border1.png");
+}
+QFrame#frame_sysset QWidget#widget_7 QWidget{
+	background:transparent;
+}
+QFrame#frame_sysset QLabel{
+	background:transparent;
+	border:0px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:30px;
+	min-width:120px;
+}
+QFrame#frame_sysset QLineEdit{
+	background:transparent;
+	border:0px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:360px;
+	max-width:360px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QFrame#frame_sysset QWidget#widget_8 QSpinBox{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:230px;
+	padding-left:10px;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QFrame#frame_sysset QWidget#widget_7 QComboBox{
+	min-width:230px;
+}
+QFrame#frame_sysset QWidget#widget_9 QComboBox{
+	min-width:360px;
+}
+QFrame#frame_sysset QWidget#widget_3 QComboBox{
+	min-width:360px;
+}
+QFrame#frame_sysset QWidget#widget_13 QComboBox{
+	min-width:360px;
+}
+QFrame#frame_sysset QPushButton{
+	background:transparent;
+	min-height:60px;
+	min-width:120px;
+	border:0px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_2.png);
+}
+QFrame#frame_sysset QPushButton:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+QFrame#frame_sysset QWidget#widget_2 QPushButton{
+	background:transparent;
+	border:0px;
+	min-height:28px;
+	max-height:28px;
+	min-width:42px;
+	max-width:42px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QFrame#frame_sysset QWidget#widget_4 QPushButton{
+	background:transparent;
+	border:0px;
+	min-height:28px;
+	max-height:28px;
+	min-width:42px;
+	max-width:42px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QFrame#frame_sysset QWidget#widget_11 QPushButton{
+	background:transparent;
+	border:0px;
+	min-height:28px;
+	max-height:28px;
+	min-width:42px;
+	max-width:42px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+/******预案设置****/
+QWidget#widget_nvrmain{
+	background:transparent;
+}
+QWidget#widget_nvrmain QWidget#widget_nvrlistwid{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/XinHao_SheZhi_border1.png);
+}
+QWidget#widget_nvrmain QFrame#frame_nvrsetwid{
+	background:transparent;
+	border:0px;
+	min-width:400px;
+	max-width:400px;
+}
+QWidget#widget_nvrmain QWidget#widget_2{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/XinHao_SheZhi_border2.png);
+}
+QWidget#widget_nvrmain QWidget#widget{
+	background:transparent;
+	min-height:60px;
+	max-height:60px;
+}
+QWidget#widget_nvrmain QWidget#widget QPushButton{
+	border-image:url(":/new/prefix1/other/image/ScienceImage/btn_to_ALL_2.png");
+	color:#06FFFF;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:60px;
+	max-height:60px;
+	min-width:120px;
+	max-width:120px;
+}
+QWidget#widget_nvrmain QWidget#widget QPushButton:pressed{
+	border-image:url(":/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png");
+}
+QWidget#widget_nvrmain QWidget#widget_nvrlistwid QComboBox{
+	max-height:40px;
+	min-width:260px;
+}
+QWidget#widget_nvrmain QFrame#frame_nvrsetwid QLineEdit{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	border:0px;
+	min-height:40px;
+	padding-left:10px;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png");
+}
+QWidget#widget_nvrmain QFrame#frame_nvrsetwid QLabel{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+/******大屏管理******/
+QWidget#widget_jmsearchmain QWidget#widget_10{
+	background:transparent;
+	min-width:400px;
+	max-width:400px;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/XinHao_SheZhi_border2.png);
+}
+QWidget#widget_jmsearchmain QWidget#widget_10 QWidget{
+	background:transparent;
+}
+QWidget#widget_jmsearchmain QWidget#widget_12{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/XinHao_SheZhi_border1.png);
+}
+QWidget#widget_jmsearchmain QWidget#widget{
+	background:transparent;
+}
+QWidget#widget_jmsearchmain QScrollArea{
+	background:transparent;
+	border:0px;
+}
+QWidget#widget_jmsearchmain QWidget#widget QLabel{
+	background:transparent;
+	border:1px solid #22A3A9;
+	font-family:"Microsoft YaHei";
+	font-size:16px;	
+	color:#06FFFF;
+}
+QWidget#widget_jmsearchmain QWidget#widget_6{
+	background:transparent;
+	max-height:200px;
+}
+QWidget#widget_jmsearchmain QWidget#widget_6 QLabel{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	border:0px;
+}
+QWidget#widget_jmsearchmain QWidget#widget_5{
+	min-height:60px;
+	max-height:60px;
+}
+QWidget#widget_jmsearchmain QWidget#widget_6 .QWidget{
+	background:transparent;
+}
+QWidget#widget_jmsearchmain QWidget#widget_6 QPushButton{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:120px;
+	min-width:200px;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_2.png);
+}
+QWidget#widget_jmsearchmain QWidget#widget_6 QPushButton:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+QWidget#widget_jmsearchmain QWidget#widget_6 QPushButton#btn_last{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Left_Light.png);
+	min-height:40px;
+	max-height:40px;
+	min-width:40px;
+	max-width:40px;
+}
+QWidget#widget_jmsearchmain QWidget#widget_6 QPushButton#btn_last:pressed{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Left_DarkGreen.png);
+}
+QWidget#widget_jmsearchmain QWidget#widget_6 QPushButton#btn_next{
+	background-color:rgba(0,0,0,0);
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Right_Light.png);
+	min-height:40px;
+	max-height:40px;
+	min-width:40px;
+	max-width:40px;
+}
+QWidget#widget_jmsearchmain QWidget#widget_6 QPushButton#btn_next:pressed{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Right_DarkGreen.png);
+}
+QWidget#widget_jmsearchmain QWidget#widget_10 QLabel{
+	min-height:30px;
+	max-height:30px;
+}
+QWidget#widget_jmsearchmain QWidget#widget_10 QSpinBox{
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	border:0px;
+	padding-left:10px;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png");
+}
+QWidget#widget_jmsearchmain QWidget#widget_10 QPushButton{
+	background:qlineargradient(spread:pad,x1:0,x2:1,y1:0,y2:0,stop: 0 #0c3d53 stop: 1 #032433);
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:120px;
+	border:1px solid #06FFFF;
+	border-radius:20px;
+}
+QWidget#widget_jmsearchmain QWidget#widget_10 QPushButton:pressed{
+	background:#09989F;
+	color:#06FFFF;
+}
+/******提示信息*******/
+QFrame#frame_messagebox{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/MessageBoxWid.png);
+}
+QFrame#frame_messagebox .QWidget{
+	color:#06FFFF;
+	background:transparent;
+}
+QFrame#frame_messagebox QLabel#labInfo{
+	color:#06FFFF;
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QFrame#frame_messagebox QWidget#widget_title QLabel#lab_Title{ 
+	color:#06FFFF;
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:18px;
+}
+QFrame#frame_messagebox QLabel#label_icon{
+	min-height:60px;
+	max-height:60px;
+	min-width:60px;
+	max-width:60px;
+}
+QFrame#frame_messagebox QWidget#widget_title{
+	min-height:40px;
+	max-height:40px;
+}
+QFrame#frame_messagebox QWidget#widget{
+	min-height:60px;
+	max-height:60px;
+}
+QFrame#frame_messagebox QPushButton{
+	background:transparent;
+	border:0px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:120px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang.png);
+}
+QFrame#frame_messagebox QPushButton:pressed{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang_Pressed.png);
+}
+/*****解码通道状态****/
+QWidget#JmTdStateWid {
+	background:transparent;
+	border:0px;
+}
+QWidget#JmTdStateWid QFrame#frame{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/MessageBoxWid.png);
+}
+QWidget#JmTdStateWid QWidget{
+	background:transparent;
+	border:0px;
+}
+QWidget#JmTdStateWid QWidget#widget_2{
+	min-height:40px;
+	max-height:40px;
+}
+QWidget#JmTdStateWid .QLabel{
+	color:#06FFFF;
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#JmTdStateWid QWidget#widget_2 QLabel{
+	font-size:18px;
+}
+QWidget#JmTdStateWid QLineEdit{
+	background:transparent;
+	color:#06FFFF;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	max-height:40px;
+	min-width:230px;
+	padding-left:10px;
+}
+/****重置IP*****/
+QWidget#SetDeviceInfo{
+	background:transparent;
+}
+QWidget#SetDeviceInfo QFrame#frame{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/MessageBoxWid.png);
+}
+QWidget#SetDeviceInfo QWidget{
+	background:transparent;
+	border:0px;
+}
+QWidget#SetDeviceInfo QLabel{
+	color:#06FFFF;
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#SetDeviceInfo QLineEdit{
+	background:transparent;
+	color:#06FFFF;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#SetDeviceInfo QWidget#widget QLabel{
+	font-size:18px;
+}
+QWidget#SetDeviceInfo QWidget#widget{
+	min-height:40px;
+	max-height:40px;
+}
+QWidget#SetDeviceInfo QWidget#widget_4{
+	min-height:60px;
+	max-height:60px;
+}
+QWidget#SetDeviceInfo QPushButton{
+	background:transparent;
+	color:#06FFFF;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:120px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang.png);
+}
+QWidget#SetDeviceInfo QPushButton:pressed{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang_Pressed.png);
+}
+/************拓扑图ffmpeg弹窗************/
+QWidget#TopoFfmpegWid{
+	background:transparent;
+}
+QWidget#TopoFfmpegWid QWidget{
+	background:transparent;
+	border:0px;
+}
+QWidget#TopoFfmpegWid QWidget#widget_2{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/MessageBoxWid.png);
+}
+/****等待GIF****/
+QWidget#WaitingGif{
+	background:transparent;
+}
+QWidget#WaitingGif QWidget{
+	background:transparent;
+}
+QWidget#WaitingGif QLabel{
+	background:transparent;
+}
+/********添加解码节点*********/
+QWidget#frmAddJmIPWid .QFrame{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/MessageBoxWid.png);
+}
+QWidget#frmAddJmIPWid QWidget#widget{
+	background:transparent;
+	border:0px;
+}
+QWidget#frmAddJmIPWid QWidget#widget .QWidget{
+	background:transparent;
+}
+QWidget#frmAddJmIPWid QWidget#widget QWidget#widget_2{
+	background:transparent;
+	min-height:40px;
+	max-height:40px;
+}
+QWidget#frmAddJmIPWid QWidget#widget QWidget#widget_4{
+	min-height:60px;
+	max-height:60px;
+}
+QWidget#frmAddJmIPWid QWidget#widget QLabel{
+	background:transparent;
+	border:0px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-width:120px;
+}
+QWidget#frmAddJmIPWid QWidget#widget QWidget#widget_2 QLabel{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:18px;
+}
+QWidget#frmAddJmIPWid QComboBox{
+	min-width:300px;
+	max-width:300px;
+}
+QWidget#frmAddJmIPWid QWidget#widget QLineEdit{
+	background:transparent;
+	color:#06FFFF;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png");
+	border-radius:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:300px;
+	max-width:300px;
+	padding-left:10px;
+}
+QWidget#frmAddJmIPWid QWidget#widget QSpinBox{
+	background:transparent;
+	color:#06FFFF;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/YuanJiaoJuXing1.png");
+	border-radius:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:120px;
+	padding-left:10px;
+}
+QWidget#frmAddJmIPWid QPushButton{
+	background:transparent;
+	color:#06FFFF;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:120px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang.png);
+}
+QWidget#frmAddJmIPWid QPushButton:pressed{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang_Pressed.png);
+}
+/*******登录界面*******/
+QWidget#frmlogin QWidget{
+	background:transparent;
+	border:0px;
+}
+QWidget#frmlogin QLabel{
+	background:transparent;
+	border:0px;
+}
+QWidget#frmlogin QLabel#label_8{
+	min-width:120px;
+	max-width:120px;
+}
+QWidget#frmlogin QLabel#label_9{
+	min-height:160px;
+	max-height:160px;
+}
+QWidget#frmlogin QWidget#widget{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/MainBgImage_3.png);
+}
+QWidget#frmlogin QWidget#widget_4{
+	min-width:400px;
+	max-width:400px;
+}
+QWidget#frmlogin QWidget#widget_11{
+	min-width:350px;
+	min-height:320px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/denglu_3.png);
+}
+QWidget#frmlogin QWidget#widget_11 QWidget#widget_2{
+	border:2px solid #02677C;
+	background:rgba(1,100,119,50);
+	min-height:30px;
+}
+QWidget#frmlogin QWidget#widget_11 QWidget#widget_3{
+	border:2px solid #02677C;
+	background:rgba(1,100,119,50);
+	min-height:30px;
+}
+QWidget#frmlogin QWidget#widget_11 QLabel{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	border:0px;
+}
+QWidget#frmlogin QWidget#widget_11 QLabel#label_2{
+	min-height:40px;
+	max-height:40px;
+	background:rgba(1,100,119,0);
+	font-size:18px;
+}
+QWidget#frmlogin QWidget#widget_11 QLabel#label_6{
+	min-width:20px;
+	max-width:20px;
+}
+QWidget#frmlogin QWidget#widget_11 QLabel#label_7{
+	min-width:20px;
+	max-width:20px;
+}
+QWidget#frmlogin QWidget#widget_11 QLabel#label_3{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/UserID.png);
+	border:0px;
+	background:transparent;
+	min-height:20px;
+	max-height:20px;
+	min-width:20px;
+	max-width:20px;
+}
+QWidget#frmlogin QWidget#widget_11 QLabel#label_4{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/UserPass.png);
+	background:rgba(1,100,119,50);
+	min-height:20px;
+	max-height:20px;
+	min-width:20px;
+	max-width:20px;
+}
+QWidget#frmlogin QWidget#widget_9{
+	max-height:40px;
+}
+QWidget#frmlogin QWidget#widget_9 QPushButton#btn_showmini{
+	background:transparent;
+	border:0px;
+	min-height:40px;
+	min-width:40px;
+	max-height:40px;
+	max-width:40px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Minimize_2.png);
+}
+QWidget#frmlogin QWidget#widget_9 QPushButton#btn_close{
+	background:transparent;
+	border:0px;
+	min-height:40px;
+	min-width:40px;
+	max-height:40px;
+	max-width:40px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/close_2.png);
+}
+QWidget#frmlogin QWidget#widget_4 QLabel{
+	color:#00DBDB;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#frmlogin QWidget#widget_4 QLabel#label_5{
+	font-family:"SimHei";
+	font-size:26px;
+}
+QWidget#frmlogin QWidget#widget_10{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/denglu_1.2.png);
+}
+QWidget#frmlogin QWidget#widget_4 QLineEdit{
+	background:transparent;
+	border-radius:0px;
+	color:#E9F0F3;
+	min-height:40px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	padding-left:10px;
+}
+QWidget#frmlogin QWidget#widget_4 QLineEdit QPushButton{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/PassHide.png);
+	border:0px;
+	min-height:20px;
+	min-width:20px;
+	max-height:20px;
+	max-width:20px;
+}
+QWidget#frmlogin QWidget#widget_4 QLineEdit QPushButton:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/PassShow.png);
+}
+QWidget#frmlogin QWidget#widget_4 QWidget#widget_7 QPushButton{
+	background:transparent;
+	border:0px;
+	border-radius:0px;
+	color:#06FFFF;
+	min-height:50px; 
+	min-width:200px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/LineEdit.png);
+}
+QWidget#frmlogin QWidget#widget_4 QWidget#widget_7 QPushButton:pressed{
+	background:rgba(1, 100, 119,50);
+}
+/****摄像头****/
+QWidget#frmptz{
+	background:transparent;
+}
+QWidget#frmptz QWidget{
+	background:transparent;
+}
+QWidget#frmptz QWidget#widget_3 QLabel#label_3{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+	text-align:center;
+	padding-left:10px;
+}
+QWidget#frmptz QWidget#widget_5{	
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/XinHao_SheZhi_border1.png);
+}
+QWidget#frmptz QWidget#widget_4{	
+	min-height:80px;
+	max-height:80px;
+}
+QWidget#frmptz QWidget#widget_CameraSet{	
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/XinHao_SheZhi_border2.png);
+}
+QWidget#frmptz QWidget#widget_5 QPushButton{
+	background:transparent;
+	color:#06FFFF;
+	min-height:60px;
+	min-width:120px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	border-image:url(:new/prefix1/other/image/ScienceImage/btn_to_ALL_2.png);
+}
+QWidget#frmptz QWidget#widget_5 QPushButton:pressed{
+	background:transparent;
+	border-image:url(:new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+QWidget#frmptz QWidget#widget_5 QWidget#widget_4 QLabel{
+	background:transparent;
+	color:#06FFFF;
+	min-height:40px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#frmptz QComboBox{
+	min-height:40px;
+	min-width:260px;
+}
+QWidget#frmptz FFmpegWidget#ptzvideo{
+	background:transparent;
+	border:0px;
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_12 QLabel#label{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	padding-left:10px;
+	min-height:40px;
+	max-width:300px;
+	min-width:300px;
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_13 QLabel{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_9{
+	min-height:300px;
+	max-height:400px;
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_6{
+	min-height:80px;
+	max-height:80px;
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_6 QPushButton#btn_shang{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_up_1.png);
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	max-width:56px;
+	max-height:80px;
+	min-width:56px;
+	min-height:80px;
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_6 QPushButton#btn_shang:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_up_pressed_1.png);
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_8{
+	min-height:80px;
+	max-height:80px;
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_8 QPushButton#btn_down{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_down_1.png);
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	max-width:56px;
+	max-height:80px;
+	min-width:56px;
+	min-height:80px;
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_8 QPushButton#btn_down:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_down_pressed_1.png);
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_7{
+	min-height:100px;
+	max-height:100px;
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_7 QPushButton#btnleft{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_left_1.png);
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-width:80px;
+	min-height:56px;
+	max-width:80px;
+	max-height:56px;
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_7 QPushButton#btnleft:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_left_pressed_1.png);
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_7 QPushButton#btn_gotohome{
+	background:transparent;
+	color:#06FFFF;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_stop.png);
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	max-width:100px;
+	min-width:100px;
+	min-height:100px;
+	max-height:100px;
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_7 QPushButton#btn_gotohome:pressed{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_stop_pressed.png);
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_7 QPushButton#btn_right{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_right_1.png);
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-width:80px;
+	min-height:56px;
+	max-width:80px;
+	max-height:56px;
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_7 QPushButton#btn_right:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_right_pressed_1.png);
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_10 QPushButton#btn_suoxiao{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_sub.png);
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:60px;
+	max-height:60px;
+	min-width:60px;
+	max-width:60px;
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_10 QPushButton#btn_suoxiao:pressed{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_sub_pressed.png);
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_10 QPushButton#btn_fangda{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_add.png);
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:60px;
+	max-height:60px;
+	min-width:60px;
+	max-width:60px;
+}
+QWidget#frmptz QWidget#widget_CameraSet QWidget#widget_10 QPushButton#btn_fangda:pressed{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_add_pressed.png);
+}
+QWidget#frmptz QLabel#label_7{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#frmptz QLineEdit{
+	background:transparent;
+	border:0px solid #6C6C6C;
+	border-radius:2px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/LineEdit.png);
+	color:#06FFFF;
+	min-height:40px;
+	max-height:40px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	padding-left:10px;
+}
+QWidget#frmptz QLabel#label_3{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	max-height:40px;
+	max-width:300px;
+	min-width:300px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#frmptz QScrollArea#scrollArea{
+	background:transparent;
+	border:0px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+/****摄像头模块里面的预案*****/
+QWidget#frmPtzPlan{
+	background:transparent;
+}
+QWidget#frmPtzPlan QWidget#widget{
+	background:qlineargradient(spread:pad,x1:0,x2:1,y1:0,y2:0,stop: 0 #0c3d53 stop: 1 #032433);
+	border-radius:10px;
+	border:1px solid #06FFFF;
+}
+QWidget#frmPtzPlan QWidget#widget QWidget{
+	background:transparent;
+}
+QWidget#frmPtzPlan QLabel{
+	background:transparent;
+	min-height:30px;
+}
+QWidget#frmPtzPlan QPushButton{
+	background:transparent;
+	border:0px;
+	color:#06FFFF;
+	max-width:60px;
+}
+QWidget#frmPtzPlan QWidget#widget_2 QLabel#label{
+	background:transparent;
+	min-height:20px;
+	min-width:20px;
+	max-height:20px;
+	max-width:20px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/ptz_name.png);
+}
+QWidget#frmPtzPlan QWidget#widget_3 QLabel#label_nav{
+	background:transparent;
+	min-height:20px;
+	min-width:20px;
+	max-height:20px;
+	max-width:20px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/ptz_nav.png);
+}
+QWidget#frmPtzPlan QWidget#widget_4 QLabel#label_4{
+	background:transparent;
+	min-height:20px;
+	min-width:20px;
+	max-height:20px;
+	max-width:20px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/ptz_set.png);
+}
+/****地图模块****/
+QWidget#frmBaiduMap{
+	background:transparent;
+}
+QWidget#frmBaiduMap QWidget{
+	background:transparent;
+}
+QWidget#frmBaiduMap QWidget#widget_5{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/XinHao_SheZhi_border1.png);
+}
+QWidget#frmBaiduMap QWidget#widget_3 {
+	min-height:60px;
+	max-height:60px;
+}
+QWidget#frmBaiduMap QWidget#widget_3 QPushButton{
+	background:transparent;
+	color:#06FFFF;
+	border:0px;
+	min-height:60px;
+	min-width:120px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_2.png);
+}
+QWidget#frmBaiduMap QWidget#widget_3 QPushButton:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+QWidget#frmBaiduMap QWidget#widget_3 QLineEdit{
+	background:transparent;
+	color:#06FFFF;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+	border:0px;
+	min-height:40px;
+	max-height:40px;
+	min-width:300px;
+	max-width:300px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	padding-left:10px;
+}
+/****地图模块添加节点窗口****/
+QWidget#widget_mapaddnode{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/MessageBoxWid.png);
+}
+QWidget#widget_mapaddnode QWidget{
+	background:transparent;
+}
+QWidget#widget_mapaddnode QLabel{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#widget_mapaddnode QWidget#widget_5{
+	min-height:40px;
+	max-height:40px;
+}
+QWidget#widget_mapaddnode QLabel#label_2{
+	font-size:18px;
+}
+QWidget#widget_mapaddnode QWidget#widget_4 {
+	min-height:60px;
+	max-height:60px;
+}
+QWidget#widget_mapaddnode QWidget#widget_2 QPushButton{
+	background:transparent;
+	color:#06FFFF;
+	min-height:40px;
+	min-width:120px;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang.png);
+}
+QWidget#widget_mapaddnode QWidget#widget_2 QPushButton:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang_Pressed.png);
+}
+QWidget#widget_mapaddnode QWidget#widget_2 QComboBox{
+	min-height:40px;
+	min-width:260px;
+}
+/*****地图模块右键菜单窗口*****/
+QWidget#MapInfoWid{
+	background:transparent;
+	border:0px;
+}
+QWidget#MapInfoWid QWidget{
+	background:transparent;
+	border:0px;
+}
+QWidget#MapInfoWid QWidget#widget{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/MessageBoxWid.png);
+}
+QWidget#MapInfoWid QLabel{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:90px;
+}
+QWidget#MapInfoWid QWidget#widget_6{
+	min-height:60px;
+	max-height:60px;
+}
+QWidget#MapInfoWid QWidget#widget_7{
+	min-height:60px;
+	max-height:60px;
+}
+QWidget#MapInfoWid QLineEdit{
+	background:transparent;
+	color:#06FFFF;
+	border:0px;
+	min-height:40px;
+	min-width:260px;
+	max-width:260px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#MapInfoWid QPushButton{
+	background:transparent;
+	color:#06FFFF;
+	border:0px;
+	min-height:40px;
+	min-width:120px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang.png);
+}
+QWidget#MapInfoWid QPushButton:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang_Pressed.png);
+}
+QWidget#MapInfoWid QLabel#label_ip{
+	min-width:200px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/YuanJiaoJuXing1.png);
+}
+QWidget#MapInfoWid QLabel#label_connect{
+	min-width:200px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/YuanJiaoJuXing1.png);
+}
+QWidget#MapInfoWid QLabel#label_lng{
+	min-width:200px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/YuanJiaoJuXing1.png);
+}
+QWidget#MapInfoWid QLabel#label_lat{
+	min-width:200px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/YuanJiaoJuXing1.png);
+}
+QWidget#MapInfoWid QLabel#label_insert{
+	min-width:200px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/YuanJiaoJuXing1.png);
+}
+QWidget#MapInfoWid QLabel#label_state{
+	min-width:200px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/YuanJiaoJuXing1.png);
+}
+/*****拓扑图*****/
+QWidget#TopoMenuWid{
+	background:transparent;
+}
+QWidget#TopoMenuWid QWidget{
+	background:transparent;
+}
+QWidget#TopoMenuWid QFrame#frame{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/MessageBoxWid.png);
+}
+QWidget#TopoMenuWid QLabel{
+	background:transparent;
+	color:#06FFFF;
+	min-height:30px;
+	min-width:90px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#TopoMenuWid QWidget#widget_26 QLabel{
+	font-size:18px;
+}
+QWidget#TopoMenuWid QLineEdit{
+	background:transparent;
+	color:#06FFFF;
+	border:0px;
+	min-height:40px;
+	max-height:40px;
+	min-width:230px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#TopoMenuWid QWidget#widget_29 QPushButton{
+	background:transparent;
+	color:#06FFFF;
+	border:0px;
+	min-height:40px;
+	min-width:120px;
+	max-width:120px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang.png);
+}
+QWidget#TopoMenuWid QWidget#widget_29 QPushButton:pressed{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang_Pressed.png);
+}
+QWidget#TopoMenuWid QLabel#label_net{
+	min-height:40px;
+	min-width:230px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+	padding-left:10px;
+}
+QWidget#TopoMenuWid QLabel#label_com{
+	min-height:40px;
+	min-width:230px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+	padding-left:10px;
+}
+QWidget#TopoMenuWid QLabel#label_state{
+	min-height:40px;
+	min-width:230px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#TopoMenuWid QLabel#label_td1{
+	min-height:40px;
+	min-width:230px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#TopoMenuWid QLabel#label_td2{
+	min-height:40px;
+	min-width:230px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#TopoMenuWid QLabel#label_td3{
+	min-height:40px;
+	min-width:230px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#TopoMenuWid QLabel#label_td4{
+	min-height:40px;
+	min-width:230px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#TopoMenuWid QLabel#label_td5{
+	min-height:40px;
+	min-width:230px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#TopoMenuWid QLabel#label_td6{
+	min-height:40px;
+	min-width:230px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#TopoMenuWid QLabel#label_td7{
+	min-height:40px;
+	min-width:230px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#TopoMenuWid QLabel#label_td8{
+	min-height:40px;
+	min-width:230px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#TopoMenuWid QLabel#label_td9{
+	min-height:40px;
+	min-width:230px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#TopoMenuWid QLabel#label_bminsert{
+	min-height:40px;
+	min-width:230px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#TopoMenuWid QLabel#label_bmstate{
+	min-height:40px;
+	min-width:230px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+/*****中控框架******/
+QWidget#frmCenterCtrlFrame{
+	background:transparent;
+}
+QWidget#frmCenterCtrlFrame .QFrame{
+	background:transparent;
+	border:0px;
+}
+QWidget#frmCenterCtrlFrame QWidget#widget{
+	background:transparent;
+}
+QWidget#frmCenterCtrlFrame QWidget#widget QToolButton#btn_openwid{
+	background:transparent;
+	color:#06FFFF;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	max-height:40px;
+	min-width:120px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang.png);
+}
+QWidget#frmCenterCtrlFrame QWidget#widget QToolButton#btn_openwid:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang_Pressed.png);
+}
+QWidget#frmCenterCtrlFrame QWidget#widget_4{
+	background:transparent;
+}
+QWidget#frmCenterCtrlFrame QWidget#widget_3{
+	background:transparent;
+}
+QWidget#frmCenterCtrlFrame .QScrollArea{
+	background:transparent;
+	border:0px;
+}
+/*QWidget#frmCenterCtrlFrame QWidget#widget_4 QWidget#widget_3 QWidget#widget_2 QScrollArea#scrollArea QWidget#scrollAreaWidgetContents{
+	background::transparent;
+	border:0px;
+}*/
+/*****中控小模块******/
+QWidget#Dis_CenterLittleWid{
+	background:transparent;
+}
+QWidget#Dis_CenterLittleWid QWidget#widget{
+	background:#0c3d53;
+	border:0px;
+	border-radius:5px;
+	/*border-image:url(:/new/prefix1/other/image/ScienceImage/Frame_4.png);*/
+}
+QWidget#Dis_CenterLittleWid QWidget#widget_2{
+	background:transparent;
+	min-height:40px;
+	max-height:40px;
+}
+QWidget#Dis_CenterLittleWid QWidget#widget_2 .QLineEdit{
+	background:transparent;
+	color:#06FFFF;
+	border:0px;
+	min-height: 40px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/YuanJiaoJuXing1.png);
+	min-width:200px;
+	max-width:200px;
+	padding-left:10px;
+}
+QWidget#Dis_CenterLittleWid QWidget#widget_3{
+	background:transparent;
+}
+QWidget#Dis_CenterLittleWid QWidget#widget_3 .QWidget{
+	background:transparent;
+	border:0px;
+}
+QWidget#Dis_CenterLittleWid QWidget#widget_3 QWidget#widget_4 QScrollArea#scrollArea {
+	background:transparent;
+}
+/*****中控帘幕******/
+QWidget#Dis_CurtainCtrl{
+	background:transparent;
+}
+QWidget#Dis_CurtainCtrl .QWidget{
+	background:transparent;
+}
+QWidget#Dis_CurtainCtrl QFrame#frame{
+	border-radius:5px;
+	border:2px solid #06FFFF;
+	background:transparent;
+}
+QWidget#Dis_CurtainCtrl QWidget#widget{
+	background:transparent;
+	border-radius:5px;
+	border:1px solid #06FFFF;
+	background:qlineargradient(spread:pad,x1:0,x2:1,y1:0,y2:0,stop: 0 #0c3d53 stop: 1 #032433);
+}
+QWidget#Dis_CurtainCtrl .QLabel{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#Dis_CurtainCtrl QLabel#label_CurtainName{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:160px;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL.png);
+}
+QWidget#Dis_CurtainCtrl QWidget#widget_2{
+	min-height:120px;
+	max-height:120px;
+}
+QWidget#Dis_CurtainCtrl QLabel#label{
+	background:transparent;
+	border:0px;
+	min-height:100px;
+	min-width:100px;
+	max-height:100px;
+	max-width:100px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Curtain.png);
+}	
+QWidget#Dis_CurtainCtrl QWidget#widget_6{
+	min-height:120px;
+	max-height:120px;
+}	
+QWidget#Dis_CurtainCtrl QPushButton#btn_down{
+	background:transparent;
+	border:0px;
+	min-height:80px;
+	max-height:80px;
+	min-width:80px;
+	max-width:80px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Downward.png);
+}
+QWidget#Dis_CurtainCtrl QPushButton#btn_down:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Downward_Pressed.png);
+}
+QWidget#Dis_CurtainCtrl QPushButton#btn_up{
+	background:transparent;
+	border:0px;
+	min-height:80px;
+	max-height:80px;
+	min-width:80px;
+	max-width:80px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Upward.png);
+}
+QWidget#Dis_CurtainCtrl QPushButton#btn_up:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Upward_Pressed.png);
+}
+QWidget#Dis_CurtainCtrl QPushButton#btn_stop{
+	background:transparent;
+	border:0px;
+	min-height:80px;
+	max-height:80px;
+	min-width:80px;
+	max-width:80px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Stop.png);
+}
+QWidget#Dis_CurtainCtrl QPushButton#btn_stop:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Stop_Pressed.png);
+}
+/***************主页小模块背景(frmDockWidgetTitleBar中添加)*********/
+QWidget#frmDockWidgetTitleBar{
+	background:transparent;
+	min-height:50px;
+}
+QWidget#frmDockWidgetTitleBar QWidget{
+	background:transparent;
+}
+QWidget#frmDockWidgetTitleBar QPushButton{
+	background:transparent;
+	border:0px;
+	min-height:25px;
+	max-height:25px;
+	min-width:25px;
+	max-width:25px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/close_2.png);
+}
+QWidget#frmDockWidgetTitleBar QLabel{
+	min-height:30px;
+	max-height:30px;
+	border-left:15px;
+	border-left:#06FFFF;
+	border-top:qlineargradient(spread:pad,x1:0,x2:1,y1:0,y2:0,stop: 0 #06FFFF stop: 1 #032433);
+	border-bottom:qlineargradient(spread:pad,x1:0,x2:1,y1:0,y2:0,stop: 0 #06FFFF stop: 1 #032433);
+	background:qlineargradient(spread:pad,x1:0,x2:1,y1:0,y2:0,stop: 0 #0c3d53 stop: 1 #032433);
+}
+
+/***************主页摄像头小模块背景*********/
+QWidget#Dis_CameraCtrl .QWidget{
+	background:transparent;
+}
+QWidget#Dis_CameraCtrl QWidget#widget_16{
+	background:transparent;
+	border:0px;
+}
+QWidget#Dis_CameraCtrl QFrame#frame{
+	border-radius:5px;
+	border:2px solid #06FFFF;
+	background:qlineargradient(spread:pad,x1:0,x2:1,y1:0,y2:0,stop: 0 #0c3d53 stop: 1 #032433);
+}
+QWidget#Dis_CameraCtrl QWidget#widget_2{
+	min-height:70px;
+	max-height:70px;
+}
+QWidget#Dis_CameraCtrl QWidget#widget_4{
+	min-height:70px;
+	max-height:70px;
+}
+QWidget#Dis_CameraCtrl QWidget#widget_3{
+	min-height:100px;
+	max-height:100px;
+}
+QWidget#Dis_CameraCtrl QPushButton#btn_up{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_up_1.png);
+	min-height:70px;
+	max-height:70px;
+	min-width:49px;
+	max-width:49px;
+}
+QWidget#Dis_CameraCtrl QPushButton#btn_up:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_up_pressed_1.png);
+}
+QWidget#Dis_CameraCtrl QPushButton#btn_down{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_down_1.png);
+	min-height:70px;
+	max-height:70px;
+	min-width:49px;
+	max-width:49px;
+}
+QWidget#Dis_CameraCtrl QPushButton#btn_down:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_down_pressed_1.png);
+}
+QWidget#Dis_CameraCtrl QPushButton#btn_left{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_left_1.png);
+	min-height:49px;
+	max-height:49px;
+	min-width:70px;
+	max-width:70px;
+}
+QWidget#Dis_CameraCtrl QPushButton#btn_left:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_left_pressed_1.png);
+}
+QWidget#Dis_CameraCtrl QPushButton#btn_right{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_right_1.png);
+	min-height:49px;
+	max-height:49px;
+	min-width:70px;
+	max-width:70px;
+}
+QWidget#Dis_CameraCtrl QPushButton#btn_right:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_right_pressed_1.png);
+}
+QWidget#Dis_CameraCtrl QPushButton#btn_reset{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_stop.png);
+	min-height:100px;
+	max-height:100px;
+	min-width:100px;
+	max-width:100px;
+}
+QWidget#Dis_CameraCtrl QPushButton#btn_reset:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_stop_pressed.png);
+}
+QWidget#Dis_CameraCtrl QLabel{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+}
+QWidget#Dis_CameraCtrl QLabel#label_CameraName{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL.png);
+	min-height:40px;
+	min-width:160px;
+}
+QWidget#Dis_CameraCtrl QPushButton#btn_subfocal{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_sub.png);
+	min-height:60px;
+	min-width:60px;
+	max-height:60px;
+	max-width:60px;
+}
+QWidget#Dis_CameraCtrl QPushButton#btn_subfocal:pressed{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_sub_pressed.png);
+}
+QWidget#Dis_CameraCtrl QPushButton#btn_addfocal{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_add.png);
+	min-height:60px;
+	min-width:60px;
+	max-height:60px;
+	max-width:60px;
+}
+QWidget#Dis_CameraCtrl QPushButton#btn_addfocal:pressed{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/c_add_pressed.png);
+}
+QWidget#Dis_CameraCtrl QWidget#widget_13 QPushButton{
+	background:transparent;
+	border:0px;
+	min-height:40px;
+	min-width:90px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang.png);
+}
+QWidget#Dis_CameraCtrl QWidget#widget_13 QPushButton:pressed{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang_Pressed.png);
+}
+/************中控灯光**********/
+QWidget#Dis_LightCtrl{
+	background:transparent;
+}
+QWidget#Dis_LightCtrl QWidget{
+	background:transparent;
+}
+QWidget#Dis_LightCtrl QLabel{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#Dis_LightCtrl QWidget#widget_2{
+	min-height:130px;
+	max-height:130px;
+}
+QWidget#Dis_LightCtrl QWidget#widget_3{
+	min-height:100px;
+	max-height:100px;
+}
+QWidget#Dis_LightCtrl QPushButton{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Light.png);
+	min-height:100px;
+	max-height:100px;
+	min-width:100px;
+	max-width:100px;
+}
+QWidget#Dis_LightCtrl QPushButton:checked{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Light_Pressed.png);
+}
+/*******修改大屏屏幕名字********/
+QFrame#frame_addChangeName{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/MessageBoxWid.png);
+}
+QFrame#frame_addChangeName QWidget{
+	background:transparent;
+}
+QFrame#frame_addChangeName QWidget#widget QLabel{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QFrame#frame_addChangeName QWidget#widget_2{
+	min-height:40px;
+	max-height:40px;
+}
+QFrame#frame_addChangeName QWidget#widget_2 QLabel{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:18px;
+}
+QFrame#frame_addChangeName QWidget#widget QLineEdit{
+	background:transparent;
+	color:#06FFFF;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	padding-left:10px;
+}
+QFrame#frame_addChangeName QWidget#widget_4{
+	min-height:60px;
+	max-height:60px;
+}
+QFrame#frame_addChangeName QPushButton{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:120px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang.png);
+}
+QFrame#frame_addChangeName QPushButton:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang_Pressed.png);
+}
+/******************中控设置模块***************/
+QWidget#Dis_CtrlSetWid{
+	background:#032433;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget{
+	background:#032433;
+}
+/*QWidget#Dis_CtrlSetWid QWidget#widget QWidget{
+	background:transparent;
+}*/
+QWidget#Dis_CtrlSetWid QWidget#widget_2{
+	min-height:60px;
+	max-height:60px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_2 QToolButton{
+	background:transparent;
+	color:#06FFFF;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	max-height:40px;
+	min-width:120px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_2 QToolButton:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang_Pressed.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget QWidget#widget_4{
+	background:#0c3d53;
+	border:0px;
+	border-radius:5px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_4 QToolButton{
+	background:#0c3d53;
+	color:#06FFFF;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:60px;
+	min-width:120px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_4 QToolButton:checked{
+	background:#09989F;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_4 QToolButton#btn_PowerModel{
+	qproperty-icon:url(:/new/prefix1/other/image/ScienceImage/ToolIcon_Power.png);
+    qproperty-iconSize:20px 20px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_4 QToolButton#btn_CameraModel{
+	qproperty-icon:url(:/new/prefix1/other/image/ScienceImage/ToolIcon_Camera.png);
+    qproperty-iconSize:20px 20px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_4 QToolButton#btn_LightModel{
+	qproperty-icon:url(:/new/prefix1/other/image/ScienceImage/ToolIcon_Light.png);
+    qproperty-iconSize:20px 20px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_4 QToolButton#btn_TempModel{
+	qproperty-icon:url(:/new/prefix1/other/image/ScienceImage/ToolIcon_Timing.png);
+    qproperty-iconSize:20px 20px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_4 QToolButton#btn_AudioModel{
+	qproperty-icon:url(:/new/prefix1/other/image/ScienceImage/ToolIcon_Voice.png);
+    qproperty-iconSize:20px 20px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_4 QToolButton#btn_CurtainModel{
+	qproperty-icon:url(:/new/prefix1/other/image/ScienceImage/ToolIcon_Curtain.png);
+    qproperty-iconSize:20px 20px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_5{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Frame_2.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_35{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Frame_2.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36{
+	background:#0c3d53;
+	border:0px;
+	border-radius:5px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 QWidget{
+	background:transparent;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_6{
+	background:#0c3d53;
+	border:0px;
+	border-radius:5px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_73{
+	background:#0c3d53;
+	border:0px;
+	border-radius:5px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 .QWidget{
+	background:transparent;
+	border:0px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_6 QWidget{
+	background:transparent;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_73 QWidget{
+	background:transparent;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_12{
+	min-height:50px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_13{
+	min-height:50px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_14{
+	min-height:50px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_15{
+	min-height:50px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_16{
+	min-height:50px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_34{
+	min-height:50px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_31{
+	min-height:50px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_45{
+	min-height:50px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 QLabel{
+	background:transparent;
+	border:0px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 QLineEdit{
+	background:transparent;
+	border:0px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-width:300px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 QComboBox{
+	border-image:none;
+	min-width:300px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 QSpinBox{
+	background:transparent;
+	border:0px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-width:300px;
+	padding-left:10px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 QPlainTextEdit{
+	background:transparent;
+	border:0px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:260px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_19{
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Frame_14.png);
+	border:0px;
+	background:transparent;
+	min-height:300px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 QPushButton{
+	background:#09989F;
+	border:0px;
+	border-radius:3px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:120px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_12 QPushButton{
+	min-height:36px;
+	max-height:36px;
+	border-radius:18px;
+	min-width:90px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 QPushButton:pressed{
+	background:#032433;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_41 QPushButton{
+	background:#09989F;
+	border:0px;
+	border-radius:3px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:120px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_41 QPushButton:pressed{
+	background:#032433;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_41 QLineEdit{
+	background:#09989F;
+	border:0px;
+	border-radius:3px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:40px;
+}
+QWidget#Dis_CtrlSetWid QPushButton#btn_power{
+	background:transparent;
+	border:0px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:120px;
+	max-height:120px;
+	max-width:120px;
+	min-width:120px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Power.png);
+}
+QWidget#Dis_CtrlSetWid QPushButton#btn_power:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Power_Pressed.png);
+}
+QWidget#Dis_CtrlSetWid QPushButton#btn_power:checked{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Power_Pressed.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_39 QLineEdit{
+	background:#09989F;
+	border:0px;
+	border-radius:3px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:240px;
+	max-width:240px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_27 QLineEdit{
+	background:#09989F;
+	border:0px;
+	border-radius:3px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:240px;
+	max-width:240px;
+}
+QWidget#Dis_CtrlSetWid QWidget#scrollAreaWidgetContents .QWidget{
+	background:transparent;
+	border:0px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#Dis_CtrlSetWid QWidget#scrollAreaWidgetContents .QLineEdit{
+	background:transparent;
+	border:0px;
+	border-radius:3px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	padding-left:10px;
+	min-height:40px;
+	min-width:240px;
+	max-width:240px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_up{
+	background:transparent;
+	border:0px;
+	min-height:70px;
+	max-height:70px;
+	min-width:49px;
+	max-width:49px;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/c_up_1.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_up:checked{
+	background:transparent;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/c_up_pressed_1.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_left{
+	background:transparent;
+	border:0px;
+	min-height:49px;
+	max-height:49px;
+	min-width:70px;
+	max-width:70px;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/c_left_1.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_left:checked{
+	background:transparent;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/c_left_pressed_1.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_right{
+	background:transparent;
+	border:0px;
+	min-height:49px;
+	max-height:49px;
+	min-width:70px;
+	max-width:70px;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/c_right_1.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_right:checked{
+	background:transparent;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/c_right_pressed_1.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_down{
+	background:transparent;
+	border:0px;
+	min-height:70px;
+	max-height:70px;
+	min-width:49px;
+	max-width:49px;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/c_down_1.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_down:checked{
+	background:transparent;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/c_down_pressed_1.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_reset{
+	background:transparent;
+	border:0px;
+	min-height:120px;
+	max-height:120px;
+	min-width:120px;
+	max-width:120px;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/c_stop.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_reset:checked{
+	background:transparent;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/c_stop_pressed.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_55{
+	min-height:80px;
+	min-height:80px;
+	max-height:80px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_56 QLabel{
+	min-height:30px;
+	max-height:40px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_subfocal{
+	background:transparent;
+	border:0px;
+	min-height:80px;
+	max-height:80px;
+	min-width:80px;
+	max-width:80px;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/c_sub.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_subfocal:checked{
+	background:transparent;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/c_sub_pressed.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_addfocal{
+	background:transparent;
+	border:0px;
+	min-height:80px;
+	max-height:80px;
+	min-width:80px;
+	max-width:80px;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/c_add.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_addfocal:checked{
+	background:transparent;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/c_add_pressed.png);
+}
+QWidget#Dis_CtrlSetWid QPushButton#btn_light_big{
+	background:transparent;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/Light.png);
+	border:0px;
+	min-height:120px;
+	max-height:120px;
+	min-width:120px;
+	max-width:120px;
+}
+QWidget#Dis_CtrlSetWid QPushButton#btn_light_big:pressed{
+	background:transparent;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/Light_Pressed.png);
+}
+QWidget#Dis_CtrlSetWid QPushButton#btn_light_big:checked{
+	background:transparent;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/Light_Pressed.png);
+}
+QWidget#Dis_CtrlSetWid QPushButton#btn_lightsmall{
+	background:transparent;
+	border:0px;
+	min-height:28px;
+	max-height:28px;
+	min-width:42px;
+	max-width:42px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/SwitchCloseNull.png);
+	padding-left:15px;
+	padding-right:5px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_72 QLabel{
+	background:#09989F;
+	border:0px;
+	border-radius:3px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_72 QLabel#label_voicename{
+	min-height:40px;
+	min-width:120px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_72 QLabel#label_voicevalue{
+	min-height:40px;
+	min-width:40px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_72 QPushButton#btn_voiceMute{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Voice_Close.png);
+	min-height:20px;
+	max-height:20px;
+	min-width:20px;
+	max-width:20px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_72 QPushButton#btn_voiceMute:checked{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Voice_Open.png);
+}
+QWidget#Dis_CtrlSetWid QSlider{
+	min-width:300px;
+	max-width:300px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_56 QPushButton{
+	background:#09989F;
+	border:0px;
+	border-radius:3px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:120px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_56 QPushButton:checked{
+	background:#032433;
+}
+QWidget#Dis_CtrlSetWid QWidget#page_4 QLabel{
+	background:transparent;
+	border:0px;
+	color:#06FFFF;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_40 QLabel{
+	background:transparent;
+	border:0px;
+	color:#06FFFF;
+}
+QWidget#Dis_CtrlSetWid QLabel#label_curtain{
+	background:transparent;
+	border:0px;
+	color:#06FFFF;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/Curtain.png);
+	min-height:120px;
+	max-height:120px;
+	min-width:120px;
+	max-width:120px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_40 QPushButton#btn_curtaindown{
+	background:transparent;
+	border:0px;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/Downward.png);
+	min-height:80px;
+	max-height:80px;
+	min-width:80px;
+	max-width:80px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_40 QPushButton#btn_curtaindown:checked{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Downward_Pressed.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_40 QPushButton#btn_curtainup{
+	background:transparent;
+	border:0px;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/Upward.png);
+	min-height:80px;
+	max-height:80px;
+	min-width:80px;
+	max-width:80px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_40 QPushButton#btn_curtainup:checked{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Upward_Pressed.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_40 QPushButton#btn_curtainstop{
+	background:transparent;
+	border:0px;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/Stop.png);
+	min-height:80px;
+	max-height:80px;
+	min-width:80px;
+	max-width:80px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_40 QPushButton#btn_curtainstop:checked{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Stop_Pressed.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_73{
+	min-height:300px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_73 QSpinBox{
+	background:transparent;
+	border:0px;
+	min-height:40px;
+	min-width:160px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/YuanJiaoJuXing1.png);
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	padding-left:10px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_73 QPushButton{
+	background:#09989F;
+	border:0px;
+	border-radius:3px;
+	min-height:40px;
+	min-width:120px;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_73 QPushButton:pressed{
+	background:#032433;
+}
+/***********漫游窗口***********/
+QWidget#frmScene QWidget{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+/*************无按钮提示窗口***********/
+QWidget#frmPopupWid QFrame#frame{
+	color:#06FFFF;
+	background:transparent;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/MessageBoxWid.png");
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#frmPopupWid QWidget{
+	background:transparent;
+	border:0px;
+}
+QWidget#frmPopupWid QWidget#widget_2{
+	min-height:40px;
+	max-height:40px;
+}
+QWidget#frmPopupWid QWidget#widget_2 QLabel{
+	color:#06FFFF;
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:18px;
+}
+QWidget#frmPopupWid QWidget#widget_3 QLabel{
+	color:#06FFFF;
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+
+/*****输出节点音频框架*******/
+QWidget#frmDecoderVoice QWidget#widget{
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	border:0px;
+}
+QWidget#frmDecoderVoice QScrollArea#scrollArea{
+	border:0px;
+	background:transparent;
+}
+QWidget#frmDecoderVoice QWidget#widget_2 QPushButton{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0 px;
+	min-height:60px;
+	min-width:120px;
+}
+QWidget#frmDecoderVoice QWidget#widget_2 QPushButton:pressed{
+	background:transparent;
+	color:#06FFFF;
+}
+
+/*******************场景管理界面***************/
+QWidget#frmSceneManageWid QFrame#frame{
+	background:transparent;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/MessageBoxWid.png");
+}
+QWidget#frmSceneManageWid QFrame#frame QWidget{
+	color:#06FFFF;
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#frmSceneManageWid QFrame#frame .QLabel{
+	color:#06FFFF;
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:30px;
+	min-width:90px;
+}
+QWidget#frmSceneManageWid QFrame#frame QWidget#widget_10{
+	min-height:40px;
+}
+QWidget#frmSceneManageWid QFrame#frame QWidget#widget_11{
+	min-height:40px;
+}
+QWidget#frmSceneManageWid QFrame#frame QWidget#widget_12{
+	min-height:40px;
+}
+QWidget#frmSceneManageWid QFrame#frame QWidget#widget_13{
+	min-height:40px;
+}
+QWidget#frmSceneManageWid QFrame#frame QWidget#widget_14{
+	min-height:60px;
+}
+QWidget#frmSceneManageWid QFrame#frame QWidget#widget_13 QLineEdit{
+	background:transparent;
+	color:#06FFFF;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:260px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#frmSceneManageWid QFrame#frame QWidget#widget_3 QPushButton{
+	background:transparent;
+	border:0px;
+	min-height:28px;
+	max-height:28px;
+	min-width:42px;
+	max-width:42px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#frmSceneManageWid QFrame#frame QWidget#widget_14 {
+	min-height:60px;
+	max-height:60px;
+}
+QWidget#frmSceneManageWid QFrame#frame QWidget#widget_14 QPushButton{
+	background:transparent;
+	color:#06FFFF;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:120px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang.png);
+}
+QWidget#frmSceneManageWid QFrame#frame QWidget#widget_14 QPushButton:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang_Pressed.png);
+}
+QWidget#frmSceneManageWid QFrame#frame QWidget#widget_27 QPushButton{
+	background:transparent;
+	color:#06FFFF;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	min-height:40px;
+	min-width:120px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang.png);
+}
+QWidget#frmSceneManageWid QFrame#frame QWidget#widget_27 QPushButton:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang_Pressed.png);
+}
+QWidget#frmSceneManageWid QScrollArea{
+	border:0px;
+}
+QWidget#frmSceneManageWid QWidget#scrollAreaWidgetContents{
+	background:transparent;
+	border:1px solid #22A3A9;
+	border-radius:5px;
+}
+QWidget#frmSceneManageWid QWidget#scrollAreaWidgetContents_2{
+	background:transparent;
+	border:1px solid #22A3A9;
+	border-radius:5px;
+}
+QWidget#frmSceneManageWid QScrollArea QPushButton{
+	background:transparent;
+	color:#06FFFF;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:60px;
+	min-width:120px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_2.png);
+}
+QWidget#frmSceneManageWid QScrollArea QPushButton:checked{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/btn_to_ALL_p_2.png);
+}
+/**********录播模块***********/
+QWidget#frmRecordAV{
+	background:transparent;
+}
+QWidget#frmRecordAV QWidget{
+	background:transparent;
+}
+QWidget#frmRecordAV QWidget#widget_4{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/XinHao_SheZhi_border1.png);
+}
+QWidget#frmRecordAV QWidget#widget_2{
+	background:transparent;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/XinHao_SheZhi_border1.png);
+}
+QWidget#frmRecordAV QWidget#widgetRight{
+	background:transparent;
+	min-width:400px;
+	max-width:400px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/XinHao_SheZhi_border2.png);
+}
+QWidget#frmRecordAV QWidget#widgetRight QWidget#widget_13 QWidget{
+	background:transparent;
+	border-image:none;
+}
+QWidget#frmRecordAV QWidget#widgetRight QPushButton{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0px;
+	min-height:50px;
+	min-width:120px;
+	max-width:120px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang.png);
+}
+QWidget#frmRecordAV QWidget#widgetRight QPushButton:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang_Pressed.png);
+}
+QWidget#frmRecordAV QWidget#widget_11{
+	min-height:80px;
+	max-height:80px;
+}
+QWidget#frmRecordAV QWidget#widget_11 QPushButton{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0px;
+	min-height:60px;
+	min-width:120px;
+	max-width:120px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang.png);
+}
+QWidget#frmRecordAV QWidget#widget_11 QPushButton:checked{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang_Pressed.png);
+}
+QWidget#frmRecordAV QWidget#widget_2 QPushButton#btnPlayVideo{
+	background:transparent;
+	border:0px;
+	min-width:40px;
+	max-width:40px;
+	min-height:40px;
+	max-height:40px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Video_Play.png);
+}
+QWidget#frmRecordAV QWidget#widget_2 QPushButton#btnPlayVideo:checked{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Video_Pause.png);
+}
+QWidget#frmRecordAV QWidget#widget_2 QPushButton#btnStopVideo{
+	background:transparent;
+	min-width:40px;
+	max-width:40px;
+	min-height:40px;
+	max-height:40px;
+	border-image: url(:/new/prefix1/other/image/ScienceImage/Video_Stop.png);
+}
+QWidget#frmRecordAV QWidget#widgetRight QLabel{
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0 px;
+	min-height:30px;
+	background:transparent;
+}
+QWidget#frmRecordAV QWidget#widgetRight QLineEdit{
+	background:transparent;
+	color:#06FFFF;
+	border:0px;
+	min-height:40px;
+	min-width:200px;
+	padding-left:10px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+/*******************录播设置*************/
+QWidget#frmRecordTimeSetWid QWidget{
+	background:transparent;
+}
+QWidget#frmRecordTimeSetWid QWidget#widget{
+	background:transparent;
+	border:0px;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/MessageBoxWid.png");
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+}
+QWidget#frmRecordTimeSetWid QLabel{
+	background:transparent;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	min-height:40px;
+	min-width:90px;
+}
+QWidget#frmRecordTimeSetWid QWidget#widget_2{
+	min-height:40px;
+	max-height:40px;
+}
+QWidget#frmRecordTimeSetWid QWidget#widget_2 QLabel{
+	font-size:18px;
+}
+QWidget#frmRecordTimeSetWid QWidget#widget QLabel#label_bmname{
+	min-width:200px;
+	min-height:40px;
+}
+QWidget#frmRecordTimeSetWid QWidget#widget QComboBox{
+	min-height:40px;
+	min-width:230px;
+	max-width:230px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png);
+}
+QWidget#frmRecordTimeSetWid QWidget#widget_6{
+	min-height:80px;
+	max-height:80px;
+}
+QWidget#frmRecordTimeSetWid QWidget#widget QPushButton{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border:0 px;
+	min-height:40px;
+	min-width:120px;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang.png);
+}
+QWidget#frmRecordTimeSetWid QWidget#widget QPushButton:pressed{
+	background:transparent;
+	border-image:url(:/new/prefix1/other/image/ScienceImage/_YingGuang_Pressed.png);
+}
+QWidget#frmRecordTimeSetWid QWidget#widget QLineEdit{
+	background:transparent;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#06FFFF;
+	border-image:url(":/new/prefix1/other/image/ScienceImage/Juxing_Xinhao1.png");
+	min-height:40px;
+	min-width:230px;
+	padding-left:10px;
+}
+/**********布局设置窗口*******/
+QWidget#SceneLayoutSetWid{
+	background:transparent;
+}
+QWidget#SceneLayoutSetWid QWidget#widget{
+	background:qlineargradient(spread:pad,x1:0,x2:1,y1:0,y2:0,stop: 0 #0c3d53 stop: 1 #032433);
+	color:#06FFFF;
+	border:1px solid #06FFFF;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}
+QWidget#SceneLayoutSetWid QPushButton{
+	background:transparent;
+	color:#06FFFF;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+}

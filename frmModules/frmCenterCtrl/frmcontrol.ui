@@ -1,0 +1,710 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmcontrol</class>
+ <widget class="QWidget" name="frmcontrol">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1493</width>
+    <height>752</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(25, 24, 42);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_7">
+   <item>
+    <widget class="QWidget" name="widget_6" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_6"/>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget_4" native="true">
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="0">
+       <widget class="QGroupBox" name="groupBox">
+        <property name="title">
+         <string>音频控制</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QFrame" name="frame">
+           <property name="maximumSize">
+            <size>
+             <width>200</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout">
+              <item>
+               <widget class="QPushButton" name="pushButton">
+                <property name="styleSheet">
+                 <string notr="true">QPushButton {
+	background-color: rgb(108, 255, 243);
+    border-style: outset;
+    border-width: 2px;
+ 
+    border-color: beige;
+    font: bold 14px;
+ 
+    padding: 6px;
+}</string>
+                </property>
+                <property name="text">
+                 <string>音频一</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout">
+                <item>
+                 <widget class="BarVolume" name="widget" native="true"/>
+                </item>
+                <item>
+                 <widget class="QSlider" name="verticalSlider">
+                  <property name="styleSheet">
+                   <string notr="true">width:10px;
+
+</string>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_2">
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_4">
+              <item>
+               <widget class="QPushButton" name="pushButton_2">
+                <property name="styleSheet">
+                 <string notr="true">QPushButton {
+	background-color: rgb(108, 255, 243);
+    border-style: outset;
+    border-width: 2px;
+ 
+    border-color: beige;
+    font: bold 14px;
+ 
+    padding: 6px;
+}</string>
+                </property>
+                <property name="text">
+                 <string>音频二</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_2">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_2">
+                <item>
+                 <widget class="BarVolume" name="widget_2" native="true"/>
+                </item>
+                <item>
+                 <widget class="QSlider" name="verticalSlider_2">
+                  <property name="styleSheet">
+                   <string notr="true">width:10px;
+
+</string>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_3">
+           <property name="maximumSize">
+            <size>
+             <width>200</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_5">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_6">
+              <item>
+               <widget class="QPushButton" name="pushButton_3">
+                <property name="styleSheet">
+                 <string notr="true">QPushButton {
+	background-color: rgb(108, 255, 243);
+    border-style: outset;
+    border-width: 2px;
+ 
+    border-color: beige;
+    font: bold 14px;
+ 
+    padding: 6px;
+}</string>
+                </property>
+                <property name="text">
+                 <string>音频三</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_3">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_3">
+                <item>
+                 <widget class="BarVolume" name="widget_3" native="true"/>
+                </item>
+                <item>
+                 <widget class="QSlider" name="verticalSlider_3">
+                  <property name="styleSheet">
+                   <string notr="true">width:10px;
+
+</string>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_4">
+           <property name="maximumSize">
+            <size>
+             <width>200</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_15">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_16">
+              <item>
+               <widget class="QPushButton" name="pushButton_11">
+                <property name="styleSheet">
+                 <string notr="true">QPushButton {
+	background-color: rgb(108, 255, 243);
+    border-style: outset;
+    border-width: 2px;
+ 
+    border-color: beige;
+    font: bold 14px;
+ 
+    padding: 6px;
+}</string>
+                </property>
+                <property name="text">
+                 <string>音频四</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_4">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_8">
+                <item>
+                 <widget class="BarVolume" name="widget_10" native="true"/>
+                </item>
+                <item>
+                 <widget class="QSlider" name="verticalSlider_5">
+                  <property name="styleSheet">
+                   <string notr="true">width:10px;
+
+</string>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_5">
+           <property name="maximumSize">
+            <size>
+             <width>200</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_17">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_18">
+              <item>
+               <widget class="QPushButton" name="pushButton_12">
+                <property name="styleSheet">
+                 <string notr="true">QPushButton {
+	background-color: rgb(108, 255, 243);
+    border-style: outset;
+    border-width: 2px;
+ 
+    border-color: beige;
+    font: bold 14px;
+ 
+    padding: 6px;
+}</string>
+                </property>
+                <property name="text">
+                 <string>音频五</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_5">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_9">
+                <item>
+                 <widget class="BarVolume" name="widget_11" native="true"/>
+                </item>
+                <item>
+                 <widget class="QSlider" name="verticalSlider_6">
+                  <property name="styleSheet">
+                   <string notr="true">width:10px;
+
+</string>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QGroupBox" name="groupBox_5">
+        <property name="minimumSize">
+         <size>
+          <width>200</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>200</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="title">
+         <string>温度控制</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_22">
+         <item>
+          <widget class="QPushButton" name="pushButton_16">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+	background-color: rgb(108, 255, 243);
+    border-style: outset;
+    border-width: 2px;
+ 
+    border-color: beige;
+    font: bold 14px;
+ 
+    padding: 6px;
+}</string>
+           </property>
+           <property name="text">
+            <string>实时温度</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_12" native="true">
+           <layout class="QHBoxLayout" name="horizontalLayout_10">
+            <item>
+             <widget class="BarTemp" name="widget_13" native="true"/>
+            </item>
+            <item>
+             <widget class="QSlider" name="verticalSlider_7">
+              <property name="styleSheet">
+               <string notr="true">width:10px;</string>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QGroupBox" name="led">
+        <property name="minimumSize">
+         <size>
+          <width>300</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="title">
+         <string>灯光控制</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="1" column="0">
+          <widget class="QPushButton" name="btn_ledcut">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad,  x1:0, x2:0, y1:0, y2:1,stop: 0 rgba(130,164,243,100),stop: 1 rgba(34,50,87,255));
+}
+QPushButton:pressed{
+	background-color: rgba(39,226,240,100);
+}
+QPushButton:checked{
+	background-color: rgb(255,202,24);
+}</string>
+           </property>
+           <property name="text">
+            <string>亮度-</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0" colspan="2">
+          <widget class="QLabel" name="label_6">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/new/prefix1/other/image/led.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QPushButton" name="btn_ledadd">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad,  x1:0, x2:0, y1:0, y2:1,stop: 0 rgba(130,164,243,100),stop: 1 rgba(34,50,87,255));
+}
+QPushButton:pressed{
+	background-color: rgba(39,226,240,100);
+}
+QPushButton:checked{
+	background-color: rgb(255,202,24);
+}</string>
+           </property>
+           <property name="text">
+            <string>亮度＋</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QPushButton" name="btn_ledClose">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad,  x1:0, x2:0, y1:0, y2:1,stop: 0 rgba(130,164,243,100),stop: 1 rgba(34,50,87,255));
+}
+QPushButton:pressed{
+	background-color: rgba(39,226,240,100);
+}
+QPushButton:checked{
+	background-color: rgb(255,202,24);
+}</string>
+           </property>
+           <property name="text">
+            <string>关闭</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QPushButton" name="btn_ledOpen">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad,  x1:0, x2:0, y1:0, y2:1,stop: 0 rgba(130,164,243,100),stop: 1 rgba(34,50,87,255));
+}
+QPushButton:pressed{
+	background-color: rgba(39,226,240,100);
+}
+QPushButton:checked{
+	background-color: rgb(255,202,24);
+}</string>
+           </property>
+           <property name="text">
+            <string>开启</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QGroupBox" name="groupBox_4">
+        <property name="minimumSize">
+         <size>
+          <width>300</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="title">
+         <string>帘幕控制</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_14">
+         <item>
+          <widget class="QWidget" name="widget_7" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>250</width>
+             <height>0</height>
+            </size>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_8">
+            <item>
+             <widget class="QWidget" name="widget_8" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>250</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/banner/19.png);</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_9" native="true">
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="2" column="1">
+             <widget class="QPushButton" name="ptn_topstop">
+              <property name="styleSheet">
+               <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad,  x1:0, x2:0, y1:0, y2:1,stop: 0 rgba(130,164,243,100),stop: 1 rgba(34,50,87,255));
+}
+QPushButton:pressed{
+	background-color: rgba(39,226,240,100);
+}
+QPushButton:checked{
+	background-color: rgb(255,202,24);
+}</string>
+              </property>
+              <property name="text">
+               <string>暂停</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QPushButton" name="ptn_down">
+              <property name="styleSheet">
+               <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad,  x1:0, x2:0, y1:0, y2:1,stop: 0 rgba(130,164,243,100),stop: 1 rgba(34,50,87,255));
+}
+QPushButton:pressed{
+	background-color: rgba(39,226,240,100);
+}
+QPushButton:checked{
+	background-color: rgb(255,202,24);
+}</string>
+              </property>
+              <property name="text">
+               <string>下降</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QPushButton" name="ptn_up">
+              <property name="styleSheet">
+               <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad,  x1:0, x2:0, y1:0, y2:1,stop: 0 rgba(130,164,243,100),stop: 1 rgba(34,50,87,255));
+}
+QPushButton:pressed{
+	background-color: rgba(39,226,240,100);
+}
+QPushButton:checked{
+	background-color: rgb(255,202,24);
+}</string>
+              </property>
+              <property name="text">
+               <string>上升</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="QPushButton" name="btn_dwonstop">
+              <property name="styleSheet">
+               <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad,  x1:0, x2:0, y1:0, y2:1,stop: 0 rgba(130,164,243,100),stop: 1 rgba(34,50,87,255));
+}
+QPushButton:pressed{
+	background-color: rgba(39,226,240,100);
+}
+QPushButton:checked{
+	background-color: rgb(255,202,24);
+}</string>
+              </property>
+              <property name="text">
+               <string>暂停</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>344</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>BarVolume</class>
+   <extends>QWidget</extends>
+   <header>barvolume.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>BarTemp</class>
+   <extends>QWidget</extends>
+   <header>bartemp.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

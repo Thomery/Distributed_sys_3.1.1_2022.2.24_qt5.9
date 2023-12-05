@@ -1,0 +1,2918 @@
+QWidget QWidget{
+	background:#202021;
+}
+/***主界面***/
+QWidget#widget_title{
+	background:#2C2C2D;
+	font-family:"Microsoft YaHei";
+	color:rgb(255,255,255);
+}
+QWidget#widget_title QWidget,QPushButton,QLael{
+	background:#2C2C2D;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+}
+QWidget#widget_mainwid1{
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#widget_mainwid1 QWidget#widget_6{
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#widget_mainwid1 QScrollArea#scrollArea{
+	border:0px;
+}
+QWidget#widget_setmy{
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#widget_setmyshow{
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#widget_setmenu{
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#widget_setmenu .QWidget{
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#widget_setmenu QLabel{
+	background:#202021;
+	color:rgb(255,255,255);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#widget_setmenu QCheckBox{
+	background:#202021;
+	color:rgb(255,255,255);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#widget_setmenu QPushButton{
+	background:#4D4D4D;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0 px;
+	border-radius:2px;
+	min-height:30px;
+	min-width:50px;
+}
+QWidget#widget_setmenu QPushButton#btn_OperationCut{
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	color:rgb(255,255,255);
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/preview_operation.png);
+	min-height:30px;
+	min-width:90px;
+}
+QWidget#widget_setmenu QPushButton#btn_OperationCut:checked{
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	color:rgb(255,255,255);
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/real-time_operation.png);
+	min-height:30px;
+	min-width:90px;
+}
+QWidget#widget_setmenu QPushButton#btn_switchyuan{
+	background:#4D4D4D;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0 px;
+	border-radius:2px;
+	min-height:30px;
+	min-width:60px;
+}
+QWidget#widget_setmenu QPushButton#pushButton_8{
+	background:#4D4D4D;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0 px;
+	border-radius:2px;
+	min-height:30px;
+	min-width:60px;
+}
+QWidget#widget_setmenu QPushButton#pushButton_11{
+	background:#4D4D4D;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0 px;
+	min-height:30px;
+	min-width:60px;
+}
+QWidget#widget_setmenu QPushButton#pushButton_11:checked{
+	background:#F79332;
+	font-family:"Microsoft YaHei";
+	color:rgb(255,255,255);
+	border:0 px;
+	min-height:30px;
+	min-width:60px;
+}
+QWidget#widget_setmenu QPushButton#pushButton_12{
+	background-color:rgba(0,0,0,0);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/LeftAndRightFP.png);
+	min-height:30px;
+	min-width:60px;
+}
+QWidget#widget_setmenu QPushButton#pushButton_12:checked{
+	background-color:rgba(0,0,0,0);
+	font-family:"Microsoft YaHei";
+	color:rgb(255,255,255);
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/LeftAndRightChecked.png);
+	min-height:30px;
+	min-width:60px;
+}
+QWidget#widget_setmenu QPushButton#pushButton_13{
+	background-color:rgba(0,0,0,0);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/UpAndDownFP.png);
+	min-height:30px;
+	min-width:60px;
+}
+QWidget#widget_setmenu QPushButton#pushButton_13:checked{
+	background-color:rgba(0,0,0,0);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/UpAndDownChecked.png);
+	min-height:30px;
+	min-width:60px;
+}
+QWidget#widget_setmenu QPushButton#pushButton_14{
+	background-color:rgba(0,0,0,0);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/FourFP.png);
+	min-height:30px;
+	min-width:60px;
+}
+QWidget#widget_setmenu QPushButton#pushButton_14:checked{
+	background-color:rgba(0,0,0,0);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/FourFPChecked.png);
+	min-height:30px;
+	min-width:60px;
+}
+QWidget#widget_setmenu QPushButton#pushButton_15{
+	background-color:rgba(0,0,0,0);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/NineFP.png);
+	min-height:30px;
+	min-width:60px;
+}
+QWidget#widget_setmenu QPushButton#pushButton_15:checked{
+	background-color:rgba(0,0,0,0);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/NineFPChecked.png);
+	min-height:30px;
+	min-width:60px;
+}
+QWidget#widget_setmenu QPushButton#btn_yuanuppage{
+	background-color:rgba(0,0,0,0);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/garyright1.png);
+	min-height:30px;
+	min-width:3px;
+}
+QWidget#widget_setmenu QPushButton#btn_yuanuppage:pressed{
+	background-color:rgba(0,0,0,0);
+	font-family:"Microsoft YaHei";
+	color:rgb(255,255,255);
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/yellowright1.png);
+	min-height:30px;
+	min-width:3px;
+}
+QWidget#widget_setmenu QPushButton#btn_yuandownpage{
+	background-color:rgba(0,0,0,0);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/garyleft1.png);
+	min-height:30px;
+	min-width:3px;
+}
+QWidget#widget_setmenu QPushButton#btn_yuandownpage:pressed{
+	background-color:rgba(0,0,0,0);
+	font-family:"Microsoft YaHei";
+	color:rgb(255,255,255);
+	border:0 px;
+	border-image:url(:/new/prefix1/other/image/yellowleft1.png);
+	min-height:30px;
+	min-width:3px;
+}
+QWidget#widget_setmenu QPushButton#pushButton_6:pressed{
+	background:#F79332;
+	font-family:"Microsoft YaHei";
+	color:rgb(255,255,255);
+}
+QWidget#widget_setmenu QPushButton#pushButton_7:pressed{
+	background:#F79332;
+	font-family:"Microsoft YaHei";
+	color:rgb(255,255,255);
+}
+QWidget#widget_setmenu QPushButton#pushButton_8:pressed{
+	background:#F79332;
+	font-family:"Microsoft YaHei";
+	color:rgb(255,255,255);
+}
+QWidget#widget_setmenu QPushButton#btnpush_screen:pressed{
+	background:#F79332;
+	font-family:"Microsoft YaHei";
+	color:rgb(255,255,255);
+}
+QWidget#widget_setmenu QToolButton{
+	background:#4D4D4D;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0 px;
+	border-radius:2px;
+	min-height:30px;
+	min-width:50px;
+}
+QWidget#widget_setmenu QPushButton:checked{
+	background:#F79332;
+	font-family:"Microsoft YaHei";
+	color:rgb(255,255,255);
+	border:0 px;
+	border-radius:2px;
+}
+QWidget#widget_setmenu QPushButton#btn_yuansave2{
+	background:#4D4D4D;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0 px;
+	border-radius:2px;
+}
+QWidget#widget_setmenu QPushButton#btn_yuansave2:pressed {
+	background:#F79332;
+	color:rgb(255,255,255);
+}
+QWidget#widget_setmenu QToolButton:checked{
+	background:#F79332;
+	font-family:"Microsoft YaHei";
+	color:rgb(255,255,255);
+	border:0 px;
+	border-radius:2px;
+}
+QWidget#widget_setmenu QComboBox{
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:1px solid #6C6C6C;
+	border-radius:2px;
+	min-height:30px;
+	min-width:90px;
+}
+QWidget#widget_setmenu QComboBox QAbstractItemView{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	selection-color:#ffffff;
+	selection-background-color:#F79332;
+	outline:0px;
+}
+QWidget#widget_showmy{
+	background:#2C2C2D;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+}
+QWidget#kvmstackedwid{
+	background:#2C2C2D;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+}
+QWidget#kvmstackedwid QWidget{
+	background:#2C2C2D;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+}
+QWidget#kvmstackedwid QWidget#widget_kvmmenu{
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	border:0 px;
+}
+QWidget#kvmstackedwid QWidget#widget_kvmmenu QPushButton{
+	background:#4D4D4D;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0 px;
+	border-radius:2px;
+	min-height:30px;
+	min-width:60px;
+}
+QWidget#kvmstackedwid QWidget#widget_kvmmenu QPushButton:pressed{
+	background:#F79332;
+	color:rgb(255,255,255);
+}
+QWidget#kvmstackedwid QWidget#widget_kvmmenu QToolButton{
+	background:#4D4D4D;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0 px;
+	border-radius:2px;
+	min-height:30px;
+	min-width:60px;
+}
+QWidget#kvmstackedwid QWidget#widget_kvmmenu QToolButton:pressed{
+	background:#F79332;
+	color:rgb(255,255,255);
+}
+QWidget#kvmstackedwid QComboBox{
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:1px solid #6C6C6C;
+	border-radius:2px;
+	min-height:30px;
+	min-width:90px;
+}
+QWidget#kvmstackedwid QComboBox QAbstractItemView{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	selection-color:#ffffff;
+	selection-background-color:#F79332;
+	outline:0px;
+}
+
+QWidget#widget_bmpreview .QWidget{
+	background:#2C2C2D;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0px;
+}
+QWidget#widget_bmpreview QWidget#widget_bmgroupset{
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0px;
+}
+QWidget#widget_bmpreview QWidget#widget_bmgroupset .QWidget{
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0px;
+}
+QWidget#widget_bmpreview QTableView{
+	color:#ffffff;
+	border:0px;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	alternate-background-color:#1C1C1F;
+	background:#2C2C2D;
+	selection-background-color:#F79332;
+}
+QWidget#widget_bmgroupset{
+	background:#2C2C2D;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0px;
+}
+QWidget#widget_bmgroupset QLabel{
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	min-height:30px;
+	min-width:90px;
+}
+QWidget#widget_bmgroupset QComboBox{
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:1px solid #6C6C6C;
+	border-radius:2px;
+	min-height:28px;
+	max-height:28px;
+	min-width:90px;
+}
+QWidget#widget_bmgroupset QComboBox QAbstractItemView{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	selection-color:#ffffff;
+	selection-background-color:#F79332;
+	outline:0px;
+}
+QWidget#widget_bmgroupset QPushButton{
+	background:#4D4D4D;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0 px;
+	border-radius:2px;
+	min-height:30px;
+	min-width:60px;
+}
+QWidget#widget_bmgroupset QPushButton:pressed{
+	background:#F79332;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:rgb(255,255,255);
+	border:0 px;
+	border-radius:2px;
+}
+QWidget#widget_mainctrl{
+	background:#2C2C2D;
+}
+QWidget#widget_mainctrl .QWidget{
+	background:#2C2C2D;
+}
+QWidget#widget_bmpreviewffmpeg .QWidget{
+	border-5px;
+}
+QLineEdit,QTextEdit,QPlainTextEdit,QSpinBox,QDoubleSpinBox,QComboBox,QDateEdit,QTimeEdit,QDateTimeEdit{
+border:1px solid #242424;
+border-radius:3px;
+padding:2px;
+background:none;
+selection-background-color:#484848;
+selection-color:#DCDCDC;
+}
+
+/****音频****/
+QWidget#VoiceWid{
+	background:#2C2C2D;
+}
+QWidget#widget_voicewid QLabel{
+	background:#2C2C2D;
+	font-size:12px;
+	font-family:"Microsoft YaHei";
+	color:rgb(255,255,255);
+}
+QWidget#widget_voicewid QPushButton#pushButton{
+	background:#2C2C2D;
+	border-image: url(:/new/prefix1/other/image/yinliang1.png);
+}
+QWidget#widget_voicewid QSlider{
+	background:#2C2C2D;
+}
+QSlider::groove:horizontal {
+border: 1px solid #4A708B;
+background: #2C2C2D;
+height: 5px;
+border-radius: 3px;
+padding-left:-1px;
+padding-right:-1px;
+}
+QSlider::sub-page:horizontal {
+background: qlineargradient(x1:0, y1:0, x2:0, y2:1, 
+    stop:0 #F79332, stop:1 #F79332);
+background: qlineargradient(x1: 0, y1: 0.2, x2: 1, y2: 1,
+    stop: 0 #F79332, stop: 1 #F79332);
+border: 1px solid #F79332;
+height: 10px;
+border-radius: 3px;
+}
+QSlider::add-page:horizontal {
+background: #1C1C1F;
+border: 0px solid #1C1C1F;
+height: 10px;
+border-radius: 3px;
+}
+QSlider::handle:horizontal 
+{
+    background: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, 
+    stop:0.6 #F79332, stop:0.778409 rgba(255, 255, 255, 255));
+    width: 11px;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    border-radius: 5px;
+}
+QSlider::handle:horizontal:hover {
+    background: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.6 #F79332, 
+    stop:0.778409 rgba(255, 255, 255, 255));
+
+    width: 11px;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    border-radius: 5px;
+}
+QSlider::sub-page:horizontal:disabled {
+background: #00009C;
+border-color: #999;
+}
+QSlider::add-page:horizontal:disabled {
+background: #eee;
+border-color: #999;
+}
+QSlider::handle:horizontal:disabled {
+background: #eee;
+border: 1px solid #aaa;
+border-radius: 4px;
+}
+/****悬浮菜单栏***/
+QWidget#DisMenu{
+	background-color:rgba(0,0,0,0);
+}
+QWidget#DisMenu .QWidget{
+	background:#202021;
+	border:0px;
+	border-radius:15px;
+}
+QWidget#DisMenu .QLabel{
+	background:#202021;
+	color:rgb(255,255,255);
+	font-family:"Microsoft YaHei";	
+	font-size:12px;
+}
+QWidget#DisMenu QPushButton#btn_1{
+	background:#202021;
+	color:rgb(255,255,255);
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/DpCtrl.png);
+}
+QWidget#DisMenu QPushButton#btn_3{
+	background:#202021;
+	color:rgb(255,255,255);
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/KvmManage.png);
+}
+QWidget#DisMenu QPushButton#btn_2{
+	background:#202021;
+	color:rgb(255,255,255);
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/DpManage.png);
+}
+QWidget#DisMenu QPushButton#btn_4{
+	background:#202021;
+	color:rgb(255,255,255);
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/BmSearch.png);
+}
+QWidget#DisMenu QPushButton#btn_5{
+	background:#202021;
+	color:rgb(255,255,255);
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/BmManage.png);
+}
+QWidget#DisMenu QPushButton#btn_6{
+	background:#202021;
+	color:rgb(255,255,255);
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/StateCheck.png);
+}
+QWidget#DisMenu QPushButton#btn_7{
+	background:#202021;
+	color:rgb(255,255,255);
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/PlanManage.png);
+}
+QWidget#DisMenu QPushButton#btn_8{
+	background:#202021;
+	color:rgb(255,255,255);
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/CmaeraCtrl.png);
+}
+QWidget#DisMenu QPushButton#btn_9{
+	background:#202021;
+	color:rgb(255,255,255);
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/MapPreviw.png);
+}
+QWidget#DisMenu QPushButton#btn_10{
+	background:#202021;
+	color:rgb(255,255,255);
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/UserManage.png);
+}
+QWidget#DisMenu QPushButton#btn_12{
+	background:#202021;
+	color:rgb(255,255,255);
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/SysSet.png);
+}
+QWidget#DisMenu QPushButton#btn_11{
+	background:#202021;
+	color:rgb(255,255,255);
+	font-family:"Microsoft YaHei";
+	border-image: url(:/new/prefix1/other/image/EnvCtrl.png);
+}
+
+/*****信号搜索******/
+QFrame#frame_bmsearchmain QFrame#frame{
+	background:#202021;
+}
+QFrame#frame_bmsearchmain QFrame#frame_2{
+	background:#2C2C2D;
+}
+QFrame#frame_bmsearchmain QTabWidget::pane{
+	background:#2C2C2D;
+}
+QFrame#frame_bmsearchmain QTabBar::tab{
+	background:#2C2C2D;	
+}
+QFrame#frame_bmsearchmain .QWidget{
+	background:#2C2C2D;
+}
+QFrame#frame_bmsearchmain QComboBox{
+	border:0px;
+	border-radius:2px;
+	color:rgb(255,255,255);
+	background:#222226;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QFrame#frame_bmsearchmain QWidget#tab1 QComboBox QAbstractItemView{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	selection-color:#ffffff;
+	selection-background-color:#F79332;
+}
+QFrame#frame_bmsearchmain QWidget#tab1 QComboBox QAbstractItemView::item{
+	height:40px;
+	min-height:40px;
+}
+QFrame#frame_bmsearchmain QComboBox::drop-down{
+	width:15px;
+	background:#222226;
+	border:0px; 
+}
+QFrame#frame_bmsearchmain QComboBox::down-arrow{
+	image: url(:/new/prefix1/other/image/combo_downarrow.png);
+	height:15px;
+	width:15px;
+}
+QFrame#frame_bmsearchmain QLineEdit{
+	background:#222226;
+	border:0px;
+	border-radius:5px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QFrame#frame_bmsearchmain QLabel{
+	background:#2C2C2D;
+	border:0px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QFrame#frame_bmsearchmain QPushButton{
+	background:#F79332;
+	border:0px;
+	border-radius:5px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QFrame#frame_bmsearchmain QPushButton:pressed{
+	background:#42372D;
+	border:2px solid;
+	border-radius:5px;
+	border-color:#F79332;
+}
+QFrame#frame_bmsearchmain QListWidget{
+	background:#2C2C2D;
+	font-size:12px;
+	outline:0px;
+	border:0px;
+}
+QFrame#frame_bmsearchmain QListWidget::item{
+	background:#424242;
+    color:#9EA0A5;
+    height:40px;
+    border:0px;
+	border-radius:10px;
+	margin:5px,5px,0px,0px;
+	font-size:12px;
+}
+QFrame#frame_bmsearchmain QListWidget::item::selected:active{
+    color:#F79332;
+	border:0px;
+	background:#42372D;
+}
+QListWidget::item:selected{
+    color:#F79332;
+    border:0px;
+	background:#42372D;
+}
+/*****信号管理*****/
+QFrame#frame_bmmanage{
+	background:#1C1C1F;
+}
+QFrame#frame_bmmanage .QWidget{
+	background:#2C2C2D;
+}
+QFrame#frame_bmmanage QWidget#widget QPushButton{
+	background:#F79332;
+	color:#ffffff;
+	border:0px;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+	min-width:60px;
+}
+QFrame#frame_bmmanage QWidget#widget QPushButton:pressed{
+	background:#2C2C2D;
+	color:#ffffff;
+	border:2px solid #3C3C3C;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QFrame#frame_bmmanage QWidget#widget_2{
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#1C1C1F;
+}
+QFrame#frame_bmmanage QWidget#widget_2 QTableView{
+	color:#ffffff;
+	border:0px;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	alternate-background-color:#1C1C1F;
+	background:#222226;
+	selection-background-color:#F79332;
+}
+QFrame#frame_bmmanage QWidget#widget_5 QPushButton{
+	color:#ffffff;
+	border:2px solid #3C3C3C;
+	border-radius:3px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+	min-height:25px;
+}
+QFrame#frame_bmmanage QWidget#widget_5 QPushButton:pressed{
+	color:#ffffff;
+	border:2px solid #F79332;
+	border-radius:3px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#F79332;
+	min-height:25px;
+}
+QFrame#frame_bmmanage QWidget#widget_5 QLineEdit{
+	color:#ffffff;
+	border:2px solid #3C3C3C;
+	border-radius:3px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+	min-height:21px;
+}
+QFrame#frame_bmmanage_gboxRight{
+	color:#ffffff;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+}
+QFrame#frame_bmmanage_gboxRight QLabel{
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+}
+QFrame#frame_bmmanage_gboxRight QLineEdit{
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#222226;
+	min-height:30px;
+}
+QFrame#frame_bmmanage_gboxRight QComboBox{
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#222226;
+	min-height:30px;
+}
+QFrame#frame_bmmanage_gboxRight QComboBox QAbstractItemView{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	selection-color:#ffffff;
+	selection-background-color:#F79332;
+}
+QFrame#frame_bmmanage_gboxRight QComboBox::drop-down{
+	width:15px;
+	background:#222226;
+	border:0px; 
+}
+QFrame#frame_bmmanage_gboxRight QComboBox::down-arrow{
+	image: url(:/new/prefix1/other/image/combo_downarrow.png);
+	height:15px;
+	width:15px;
+}
+QFrame#frame_bmmanage_gboxRight QSpinBox{
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#222226;
+	min-height:30px;
+}
+/******用户设置*****/
+QWidget#frmlogset{
+	background-color:rgba(0,0,0,0);
+}
+QWidget#frmlogset .QFrame{
+	background-color:rgba(0,0,0,0);
+	border:0px;
+}
+QWidget#frmlogset QWidget#widget_3{
+	background:#1C1C1F;
+}
+QWidget#frmlogset QWidget#widget_8{
+	background:#2C2C2D;
+}
+QWidget#frmlogset QWidget#widget_4{
+	background:#2C2C2D;
+}
+QWidget#frmlogset QWidget#widget_4 QPushButton{
+	background:#F79332;
+	color:#ffffff;
+	border:0px;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+	max-height:30px;
+	min-width:60px;
+	max-width:90px;
+}
+QWidget#frmlogset QWidget#widget_4 QPushButton:pressed{
+	background:#2C2C2D;
+	color:#ffffff;
+	border:2px solid #3C3C3C;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmlogset QTableView{
+	color:#ffffff;
+	border:0px;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	alternate-background-color:#1C1C1F;
+	background:#222226;
+	selection-background-color:#F79332;
+}
+QWidget#frmlogset QWidget#widget_5{
+	color:#ffffff;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+}
+QWidget#frmlogset QWidget#widget_5 .QWidget{
+	color:#ffffff;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+}
+QWidget#frmlogset QWidget#widget_5 QPushButton{
+	color:#ffffff;
+	border:2px solid #3C3C3C;
+	border-radius:3px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+	min-height:25px;
+}
+QWidget#frmlogset QWidget#widget_5 QPushButton:pressed{
+	color:#ffffff;
+	border:2px solid #F79332;
+	border-radius:3px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#F79332;
+	min-height:25px;
+}
+QWidget#frmlogset QWidget#widget_5 QLineEdit{
+	color:#ffffff;
+	border:2px solid #3C3C3C;
+	border-radius:3px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+	min-height:21px;
+}
+QWidget#frmlogset QFrame#frame_2 .QWidget{
+	background:#2C2C2D;
+}
+QWidget#frmlogset QWidget#widget QLabel{
+	background:#2C2C2D;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmlogset QWidget#widget QLineEdit{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+}
+QWidget#frmlogset QWidget#widget QComboBox{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+}
+QWidget#frmlogset QWidget#widget QComboBox QAbstractItemView{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	selection-color:#ffffff;
+	selection-background-color:#F79332;
+	outline:0px;
+}
+QWidget#frmlogset QWidget#widget QComboBox::drop-down{
+	width:15px;
+	background:#222226;
+	border:0px; 
+}
+QWidget#frmlogset QWidget#widget QComboBox::down-arrow{
+	image: url(:/new/prefix1/other/image/combo_downarrow.png);
+	height:15px;
+	width:15px;
+}
+/*****状态检测****/
+QWidget#DeviceState{
+	background-color:rgba(0,0,0,0);
+}
+QWidget#DeviceState QWidget#widget{
+	background-color:rgba(0,0,0,0);
+}
+QWidget#DeviceState QWidget#widget_20{
+	background:#1C1C1F;
+}
+QWidget#DeviceState QWidget#widget_4{
+	background:#2C2C2D;
+}
+QWidget#DeviceState QWidget#widget_10{
+	background:#2C2C2D;
+}
+QWidget#DeviceState QWidget#widget_15{
+	background:#2C2C2D;
+}
+QWidget#DeviceState QWidget#widget_22{
+	background:#2C2C2D;
+}
+QWidget#DeviceState QWidget#widget_22 .QWidget{
+	background:#2C2C2D;
+}
+QWidget#DeviceState QWidget#widget_22 QPushButton{
+	color:#ffffff;
+	border:2px solid #3C3C3C;
+	border-radius:3px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+	min-height:25px;
+}
+QWidget#DeviceState QWidget#widget_22 QPushButton:pressed{
+	color:#ffffff;
+	border:2px solid #F79332;
+	border-radius:3px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#F79332;
+	min-height:25px;
+}
+QWidget#DeviceState QWidget#widget_22 QLineEdit{
+	color:#ffffff;
+	border:2px solid #3C3C3C;
+	border-radius:3px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+	min-height:21px;
+}
+QWidget#DeviceState QWidget#widget_5{
+	background:#2C2C2D;
+}
+QWidget#DeviceState QWidget#widget_5 .QWidget{
+	background:#2C2C2D;
+}
+QWidget#DeviceState QWidget#widget_5 QPushButton{
+	color:#ffffff;
+	border:2px solid #3C3C3C;
+	border-radius:3px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+	min-height:25px;
+}
+QWidget#DeviceState QWidget#widget_5 QPushButton:pressed{
+	color:#ffffff;
+	border:2px solid #F79332;
+	border-radius:3px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#F79332;
+	min-height:25px;
+}
+QWidget#DeviceState QWidget#widget_5 QLineEdit{
+	color:#ffffff;
+	border:2px solid #3C3C3C;
+	border-radius:3px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+	min-height:21px;
+}
+QWidget#DeviceState QTableView{
+	color:#ffffff;
+	border:0px;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	alternate-background-color:#1C1C1F;
+	background:#222226;
+	selection-background-color:#F79332;
+}
+QWidget#DeviceState QWidget#widget_16 QPushButton{
+	color:#ffffff;
+	border:0px;
+	border-radius:12px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#F79332;
+	min-height:25px;
+	max-height:25px;
+	min-width:60px;
+}
+QWidget#DeviceState QWidget#widget_16 QLabel{
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+}
+QWidget#DeviceState QWidget#widget_6{
+	color:#ffffff;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	background:#2C2C2D;
+}
+QWidget#DeviceState QWidget#widget_6 .QWidget{
+	color:#ffffff;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+}
+QWidget#DeviceState QWidget#widget_12{
+	color:#ffffff;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+}
+QWidget#DeviceState QWidget#widget_12 .QWidget{
+	color:#ffffff;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+}
+QWidget#DeviceState QWidget#widget_17{
+	color:#ffffff;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+}
+QWidget#DeviceState QWidget#widget_17 .QWidget{
+	color:#ffffff;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+}
+QWidget#DeviceState QTextEdit{
+	color:#ffffff;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+}
+QWidget#DeviceState QWidget#widget_15{
+	color:#ffffff;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#242427;
+}
+/*****系统设置*****/
+QFrame#frame_sysset{
+	background:#202021;
+	border:0px;
+}
+QFrame#frame_sysset QWidget#widget_6{
+	background:#202021;
+	border:0px;
+}
+QFrame#frame_sysset QWidget#widget_7{
+	background:#202021;
+	border:3px solid #5C5C5C;;
+	border-radius:3px;
+}
+QFrame#frame_sysset QWidget#widget_7 .QWidget{
+	background:#202021;
+	border:0px;
+}
+QFrame#frame_sysset QLabel{
+	background:#202021;
+	border:0px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+	min-width:90px;
+}
+QFrame#frame_sysset QLineEdit{
+	background:#222226;
+	border:0px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+}
+QFrame#frame_sysset QWidget#widget_8 .QSpinBox{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+	min-width:120;
+	border:0px;
+	border-radius:5px;
+}
+QFrame#frame_sysset QComboBox{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+}
+QFrame#frame_sysset QComboBox QAbstractItemView{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	selection-color:#ffffff;
+	selection-background-color:#F79332;
+	outline:0px;
+}
+QFrame#frame_sysset QComboBox::drop-down{
+	width:15px;
+	background:#222226;
+	border:0px; 
+}
+QFrame#frame_sysset QComboBox::down-arrow{
+	image: url(:/new/prefix1/other/image/combo_downarrow.png);
+	height:15px;
+	width:15px;
+}
+QFrame#frame_sysset QWidget#widget_2 QPushButton{
+	background:#222226;
+	min-height:25px;
+	max-height:25px;
+	min-width:41px;
+	max-width:41px;
+}
+QFrame#frame_sysset QWidget#widget_3 QPushButton{
+	background:#222226;
+	min-height:25px;
+	max-height:25px;
+	min-width:41px;
+	max-width:41px;
+}
+QFrame#frame_sysset QWidget#widget_4 QPushButton{
+	background:#222226;
+	min-height:25px;
+	max-height:25px;
+	min-width:41px;
+	max-width:41px;
+}
+QFrame#frame_sysset QPushButton{
+	background:#F79332;
+	min-height:40px;
+	min-width:80px;
+	border:0px;
+	border-radius:5px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QFrame#frame_sysset QPushButton:pressed{
+	background:#5C5C5C;
+	border:0px;
+	border-radius:5px;
+	color:#ffffff;
+}
+/******预案设置****/
+QWidget#widget_nvrmain{
+	background-color:rgba(0,0,0,0);
+}
+QWidget#widget_nvrmain QWidget#widget_nvrlistwid{
+	background:#1C1C1F;
+}
+QWidget#widget_nvrmain QWidget#widget{
+	background:#2C2C2D;
+}
+QWidget#widget_nvrmain QWidget#widget QPushButton{
+	background:#F79332;
+	color:#ffffff;
+	border:0px;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+	max-height:30px;
+	min-width:60px;
+	max-width:90px;
+}
+QWidget#widget_nvrmain QWidget#widget QPushButton:pressed{
+	background:#2C2C2D;
+	color:#ffffff;
+	border:2px solid #3C3C3C;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#widget_nvrmain QTableView{
+	color:#ffffff;
+	border:0px;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	alternate-background-color:#1C1C1F;
+	background:#222226;
+	selection-background-color:#F79332;
+}
+QWidget#widget_nvrmain QWidget#widget_5{
+	color:#ffffff;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+}
+QWidget#widget_nvrmain QWidget#widget_5 .QWidget{
+	color:#ffffff;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+}
+QWidget#widget_nvrmain QWidget#widget_5 QPushButton{
+	background:#2C2C2D;
+	color:#ffffff;
+	border:2px solid #3C3C3C;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:25px;
+}
+QWidget#widget_nvrmain QWidget#widget_5 QPushButton:pressed{
+	background:#F79332;
+	color:#ffffff;
+	border:0px;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#widget_nvrmain QWidget#widget_5 QLineEdit{
+	color:#ffffff;
+	border:2px solid #3C3C3C;
+	border-radius:3px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#2C2C2D;
+	max-height:21px;
+}
+QWidget#widget_nvrmain QFrame#frame_nvrsetwid{
+	border:0px;
+	background:#2C2C2D;
+}
+QWidget#widget_nvrmain QFrame#frame_nvrsetwid QLineEdit{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	border:0px;
+	border-radius:3px;
+	min-height:30px;
+}
+QWidget#widget_nvrmain QFrame#frame_nvrsetwid QLabel{
+	background:#2C2C2D;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#widget_nvrmain QFrame#frame_nvrsetwid QComboBox{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+}
+QWidget#widget_nvrmain QFrame#frame_nvrsetwid QComboBox QAbstractItemView{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	selection-color:#ffffff;
+	selection-background-color:#F79332;
+	outline:0px;
+}
+QWidget#widget_nvrmain QFrame#frame_nvrsetwid QComboBox::drop-down{
+	width:15px;
+	background:#222226;
+	border:0px; 
+}
+QWidget#widget_nvrmain QFrame#frame_nvrsetwid QComboBox::down-arrow{
+	image: url(:/new/prefix1/other/image/combo_downarrow.png);
+	height:15px;
+	width:15px;
+}
+/******大屏管理******/
+QWidget#widget_jmsearchmain{
+	background-color:rgba(0,0,0,0);
+}
+QWidget#widget_jmsearchmain QWidget#widget_12{
+	background:#202021;
+}
+QWidget#widget_jmsearchmain QWidget#widget{
+	background:#202021;
+}
+QWidget#widget_jmsearchmain QWidget#widget QLabel{
+	background:#2C2C2D;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#widget_jmsearchmain QWidget#widget_6{
+	background:#2C2C2D;
+}
+QWidget#widget_jmsearchmain QWidget#widget_6 QLabel{
+	background:#2C2C2D;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#widget_jmsearchmain QWidget#widget_6 .QWidget{
+	background:#2C2C2D;
+}
+QWidget#widget_jmsearchmain QWidget#widget_6 QPushButton{
+	background:#F79332;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:60px;
+	min-width:120px;
+	border:0px;
+	border-radius:5px;
+}
+QWidget#widget_jmsearchmain QWidget#widget_6 QPushButton:pressed{
+	background:#5C5C5C;
+	color:#ffffff;
+}
+QWidget#widget_jmsearchmain QWidget#widget_6 QScrollArea{
+	background:#2C2C2D;
+	color:#ffffff;
+	border:0px;
+}
+QScrollBar:horizontal{
+border: none;
+background: #363636;
+height:10px;
+margin: 0px 0 0px 0;
+}
+QScrollBar::handle:horizontal {
+background:#9EA0A5;
+min-height: 10px;
+border-radius: 5px;
+border: none;
+}
+QScrollBar::add-line:horizontal {
+border: 0px;
+background: #32CC99;
+height: 0px;
+subcontrol-position: bottom;
+subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal {
+border: 0px;
+background: #32CC99;
+height: 0px;
+subcontrol-position: top;
+subcontrol-origin: margin;
+}
+QScrollBar::add-page:horizontal,QScrollBar::sub-page:horizontal {
+background: none;
+width: 0px;
+height: 0px;
+}
+QScrollBar:vertical{
+border: none;
+background: #363636;
+width:10px;
+margin: 0px 0 0px 0;
+}
+QScrollBar::handle:vertical {
+background:#9EA0A5;
+min-width: 10px;
+border-radius: 5px;
+border: none;
+}
+QScrollBar::add-line:vertical {
+border: 0px;
+background: #32CC99;
+height: 0px;
+subcontrol-position: bottom;
+subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical {
+border: 0px;
+background: #32CC99;
+height: 0px;
+subcontrol-position: top;
+subcontrol-origin: margin;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical {
+background: none;
+width: 0px;
+height: 0px;
+}
+QWidget#widget_jmsearchmain QWidget#widget_10{
+	background:#2C2C2D;
+}
+QWidget#widget_jmsearchmain QWidget#widget_10 .QWidget{
+	background:#2C2C2D;
+}
+QWidget#widget_jmsearchmain QWidget#widget_10 QLabel{
+	background:#2C2C2D;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#widget_jmsearchmain QWidget#widget_10 QSpinBox{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+	border:0px;
+	border-radius:5px;
+}
+QWidget#widget_jmsearchmain QWidget#widget_10 QComboBox{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+	border:0px;
+	border-radius:5px;
+}
+QWidget#widget_jmsearchmain QWidget#widget_10 QComboBox QAbstractItemView{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	selection-color:#ffffff;
+	selection-background-color:#F79332;
+	outline:0px;
+}
+QWidget#widget_jmsearchmain QWidget#widget_10 QComboBox::drop-down{
+	width:15px;
+	background:#222226;
+	border:0px; 
+}
+QWidget#widget_jmsearchmain QWidget#widget_10 QComboBox::down-arrow{
+	image: url(:/new/prefix1/other/image/combo_downarrow.png);
+	height:15px;
+	width:15px;
+}
+QWidget#widget_jmsearchmain QWidget#widget_10 QPushButton{
+	background:#F79332;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+	border:0px;
+	border-radius:5px;
+}
+QWidget#widget_jmsearchmain QWidget#widget_10 QPushButton:pressed{
+	background:#5C5C5C;
+	color:#ffffff;
+}
+/******提示信息*******/
+QFrame#frame_messagebox{
+	background:#202021;
+	border:1px solid #6C6C6C;
+}
+QFrame#frame_messagebox .QWidget{
+	color:#ffffff;
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QFrame#frame_messagebox .QLabel{
+	color:#ffffff;
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QFrame#frame_messagebox QPushButton{
+	background:#2C2C2D;
+	color:#ffffff;
+	border:2px solid #3C3C3C;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+	min-width:90px;
+}
+QFrame#frame_messagebox QPushButton:pressed{
+	background:#F79332;
+	color:#ffffff;
+	border:0px;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QFrame#frame_messagebox QPushButton#btn_close{
+	background:#202021;
+	color:#ffffff;
+	border:0px;
+	min-height:30px;
+	min-width:30px;
+	max-height:30px;
+	max-width:30px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	border-image:url(:/new/prefix1/other/image/close2.png);
+}
+/*****解码通道状态****/
+QWidget#JmTdStateWid .QFrame{
+	background:#202021;
+	border:1px solid #6C6C6C;
+}
+QWidget#JmTdStateWid QWidget#widget{
+	background:#202021;
+}
+QWidget#JmTdStateWid QWidget#widget .QWidget{
+	background:#202021;
+}
+QWidget#JmTdStateWid QWidget#widget_2{
+	background:#202021;
+}
+QWidget#JmTdStateWid .QLabel{
+	color:#ffffff;
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#JmTdStateWid QLineEdit{
+	background:#202021;
+	color:#ffffff;
+	border:1px solid #6C6C6C;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:26px;
+	max-height:26px;
+}
+QWidget#JmTdStateWid QPushButton#btn_close{
+	background:#202021;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+	max-height:30px;
+	min-width:30px;
+	max-width:30px;
+	border-image:url(:/new/prefix1/other/image/close2.png);
+}
+/****重置IP*****/
+QWidget#SetDeviceInfo .QFrame{
+	background:#202021;
+	border:1px solid #6C6C6C;
+}
+QWidget#SetDeviceInfo .QWidget{
+	background:#202021;
+}
+QWidget#SetDeviceInfo QWidget#widget{
+	background:#202021;
+}
+QWidget#SetDeviceInfo QLabel{
+	color:#ffffff;
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#SetDeviceInfo QLabel#label{
+	color:#ffffff;
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#SetDeviceInfo QLineEdit{
+	background:#202021;
+	color:#ffffff;
+	border:1px solid #6C6C6C;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+}
+QWidget#SetDeviceInfo QPushButton{
+	background:#2C2C2D;
+	color:#ffffff;
+	border:2px solid #3C3C3C;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+	min-width:90px;
+}
+QWidget#SetDeviceInfo QPushButton:pressed{
+	background:#F79332;
+	color:#ffffff;
+	border:0px;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#SetDeviceInfo QPushButton#btn_close{
+	background:#202021;
+	color:#ffffff;
+	border:0px;
+	min-height:30px;
+	max-height:30px;
+	min-width:30px;
+	max-width:30px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	border-image:url(:/new/prefix1/other/image/close2.png);
+}
+/****等待GIF****/
+QWidget#WaitingGif{
+	background-color: rgba(255, 255, 255, 0);
+}
+QWidget#WaitingGif QWidget{
+	background-color: rgba(255, 255, 255, 0);
+}
+QWidget#WaitingGif QLabel{
+	background-color: rgba(255, 255, 255, 0);
+}
+/********添加解码节点*********/
+QWidget#frmAddJmIPWid .QFrame{
+	background:#202021;
+	border:1px solid #6C6C6C;
+}
+QWidget#frmAddJmIPWid QWidget#widget{
+	background:#202021;
+	border:2px solid #6C6C6C;
+}
+QWidget#frmAddJmIPWid QWidget#widget .QWidget{
+	background:#202021;
+}
+QWidget#frmAddJmIPWid QWidget#widget QWidget#widget_2{
+	background:#202021;
+}
+QWidget#frmAddJmIPWid QWidget#widget QLabel{
+	background:#202021;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmAddJmIPWid QWidget#widget QWidget#widget_2 QLabel{
+	background:#202021;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmAddJmIPWid QWidget#widget QLineEdit{
+	background:#202021;
+	color:#ffffff;
+	border:1px solid #6C6C6C;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+}
+QWidget#frmAddJmIPWid QPushButton{
+	background:#2C2C2D;
+	color:#ffffff;
+	border:2px solid #3C3C3C;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+	min-width:90px;
+}
+QWidget#frmAddJmIPWid QPushButton:pressed{
+	background:#F79332;
+	color:#ffffff;
+	border:0px;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmAddJmIPWid QPushButton#btn_close{
+	background:#202021;
+	color:#ffffff;
+	border:0px;
+	min-height:30px;
+	max-height:30px;
+	min-width:30px;
+	max-width:30px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	border-image:url(:/new/prefix1/other/image/close2.png);
+}
+/*******登录界面*******/
+QWidget#frmlogin{
+	background:#2C2C2D;
+}
+QWidget#frmlogin QWidget#widget {
+	background:#2C2C2D;
+}
+QWidget#frmlogin QWidget#widget .QWidget{
+	background:#2C2C2D;
+}
+QWidget#frmlogin QWidget#widget_9 QPushButton#btn_showmini{
+	background:#2C2C2D;
+	border:0px;
+	min-height:30px;
+	min-width:30px;
+	max-height:30px;
+	max-width:30px;
+	border-image:url(:/new/prefix1/other/image/minimize2.png);
+}
+QWidget#frmlogin QWidget#widget_9 QPushButton#btn_close{
+	background:#2C2C2D;
+	border:0px;
+	min-height:30px;
+	min-width:30px;
+	max-height:30px;
+	max-width:30px;
+	border-image:url(:/new/prefix1/other/image/close2.png);
+}
+QWidget#frmlogin QWidget#widget_4 QLabel{
+	background:#2C2C2D;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	font-size:14px;
+}
+QWidget#frmlogin QWidget#widget_5 QLabel{
+	background:#2C2C2D;
+	border-image:url(:/new/prefix1/other/image/cover.png);
+}
+QWidget#frmlogin QWidget#widget_4 QLineEdit{
+	background:#202021;
+	border:2px solid #6C6C6C;
+	border-radius:5px;
+	color:#9EA0A5;
+	min-height:30px;
+	min-width:200px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmlogin QWidget#widget_4 QWidget#widget_7 QPushButton{
+	background:#F79332;
+	border:0px;
+	border-radius:5px;
+	color:#ffffff;
+	min-height:30px; 
+	min-width:200px;
+}
+QWidget#frmlogin QWidget#widget_4 QWidget#widget_7 QPushButton:pressed{
+	background:#4D4D4D;
+	border:0px;
+	border-radius:5px;
+	color:#ffffff;
+}
+QWidget#frmlogin QWidget#widget_4 QWidget#widget_8 QRadioButton{
+	background:#2C2C2D;
+}
+QWidget#frmlogin QWidget#widget_4 QWidget#widget_8 QRadioButton::indicator::unchecked {
+    image:url(:/new/prefix1/other/image/loginhover.png);
+}
+QWidget#frmlogin QWidget#widget_4 QWidget#widget_8 QRadioButton::indicator:unchecked:hover {
+    image:url(:/new/prefix1/other/image/loginhover.png);
+}
+QWidget#frmlogin QWidget#widget_4 QWidget#widget_8 QRadioButton::indicator:unchecked:pressed {
+    image:url(:/new/prefix1/other/image/loginchecked.png);
+}
+QWidget#frmlogin QWidget#widget_4 QWidget#widget_8 QRadioButton::indicator::checked {
+    image:url(:/new/prefix1/other/image/loginchecked.png);
+}
+QWidget#frmlogin QWidget#widget_4 QWidget#widget_8 QRadioButton::indicator:checked:hover {
+    image: url(:/new/prefix1/other/image/loginhover.png);
+}
+QWidget#frmlogin QWidget#widget_4 QWidget#widget_8 QRadioButton::indicator:checked:pressed{
+    image: url(:/new/prefix1/other/image/loginhover.png);
+}
+/****摄像头****/
+QWidget#frmptz{
+	background-color:rgb(0,0,0,0);
+}
+QWidget#frmptz QWidget#widget_3{
+	background-color:rgb(0,0,0,0);
+}
+QWidget#frmptz QWidget#widget_5{
+	background:#202021;
+}
+QWidget#frmptz QWidget#widget_5 QWidget#widget_4{
+	background:#2C2C2D;
+}
+QWidget#frmptz QWidget#widget_5 QWidget#widget_4 QLabel{
+	background:#2C2C2D;
+	color:#ffffff;
+	min-height:30px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QWidget#widget_5 QWidget#widget_4 QPushButton{
+	background:#F79332;
+	color:#ffffff;
+	border:0px;
+	border-radius:3px;
+	min-height:30px;
+	min-width:90px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QWidget#widget_5 QWidget#widget_4 QPushButton:pressed{
+	background:#4D4D4D;
+}
+QWidget#frmptz QComboBox{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+	min-width:120px;
+	border:0px;
+	border-radius:5px;
+}
+QWidget#frmptz QComboBox QAbstractItemView{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	selection-color:#ffffff;
+	selection-background-color:#F79332;
+	font-size:12px;
+	outline:0px;
+}
+QWidget#frmptz QComboBox::drop-down{
+	width:15px;
+	background:#222226;
+	border:0px; 
+}
+QWidget#frmptz QComboBox::down-arrow{
+	image: url(:/new/prefix1/other/image/combo_downarrow.png);
+	height:15px;
+	width:15px;
+}
+QWidget#frmptz FFmpegWidget#ptzvideo{
+	background:#2C2C2D;
+	border:0px;
+}
+QWidget#frmptz QWidget#widget{
+	background:#2C2C2D;
+}
+QWidget#frmptz QWidget#widget .QWidget{
+	background:#2C2C2D;
+}
+QWidget#frmptz QWidget#widget QWidget#widget_12 QLabel{
+	background:#2C2C2D;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QWidget#widget QWidget#widget_13 QLabel{
+	background:#2C2C2D;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QWidget#widget QWidget#widget_6 QPushButton#btn_shang{
+	background-color:rgba(0,0,0,0);
+	border-image:url(:/new/prefix1/other/image/c_up.png);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QWidget#widget QWidget#widget_6 QPushButton#btn_shang:pressed{
+	background-color:rgba(0,0,0,0);
+	border-image:url(:/new/prefix1/other/image/c_up_pressed.png);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QWidget#widget QWidget#widget_8 QPushButton#btn_down{
+	background-color:rgba(0,0,0,0);
+	border-image:url(:/new/prefix1/other/image/c_down.png);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QWidget#widget QWidget#widget_8 QPushButton#btn_down:pressed{
+	background-color:rgba(0,0,0,0);
+	border-image:url(:/new/prefix1/other/image/c_down_pressed.png);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QWidget#widget QWidget#widget_7 QPushButton#btnleft{
+	background-color:rgba(0,0,0,0);
+	border-image:url(:/new/prefix1/other/image/c_left.png);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QWidget#widget QWidget#widget_7 QPushButton#btnleft:pressed{
+	background-color:rgba(0,0,0,0);
+	border-image:url(:/new/prefix1/other/image/c_lef_pressed.png);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QWidget#widget QWidget#widget_7 QPushButton#btn_gotohome{
+	background-color:rgba(0,0,0,0);
+	color:#6A421C;
+	border-image:url(:/new/prefix1/other/image/c_stop.png);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QWidget#widget QWidget#widget_7 QPushButton#btn_gotohome:pressed{
+	color:#d88230;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QWidget#widget QWidget#widget_7 QPushButton#btn_right{
+	background-color:rgba(0,0,0,0);
+	border-image:url(:/new/prefix1/other/image/c_right.png);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QWidget#widget QWidget#widget_7 QPushButton#btn_right:pressed{
+	background-color:rgba(0,0,0,0);
+	border-image:url(:/new/prefix1/other/image/c_right_pressed.png);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QWidget#widget QWidget#widget_10 QPushButton#btn_suoxiao{
+	background-color:rgba(0,0,0,0);
+	border-image:url(:/new/prefix1/other/image/c_sub.png);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QWidget#widget QWidget#widget_10 QPushButton#btn_suoxiao:pressed{
+	background-color:rgba(0,0,0,0);
+	border-image:url(:/new/prefix1/other/image/c_sub_pressed.png);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QWidget#widget QWidget#widget_10 QPushButton#btn_fangda{
+	background-color:rgba(0,0,0,0);
+	border-image:url(:/new/prefix1/other/image/c_add.png);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QWidget#widget QWidget#widget_10 QPushButton#btn_fangda:pressed{
+	background-color:rgba(0,0,0,0);
+	border-image:url(:/new/prefix1/other/image/c_add_pressed.png);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QLabel#label_7{
+	background:#2C2C2D;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QLineEdit{
+	background:#202021;
+	border:1px solid #6C6C6C;
+	border-radius:2px;
+	color:#ffffff;
+	min-height:25px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmptz QLabel#label_3{
+	background:#2C2C2D;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+}
+QWidget#frmptz QScrollArea#scrollArea{
+	background:#2C2C2D;
+	border:0px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+/****摄像头模块里面的预案*****/
+QWidget#frmPtzPlan{
+	background-color:rgba(0,0,0,0);
+}
+QWidget#frmPtzPlan QWidget#widget{
+	background:#424242;
+	border-radius:5px;
+}
+QWidget#frmPtzPlan QWidget#widget .QWidget{
+	background:#424242;
+}
+QWidget#frmPtzPlan QLabel{
+	background:#424242;
+}
+QWidget#frmPtzPlan QPushButton{
+	background:#424242;
+	border:0px;
+	color:#F79332;
+	max-width:40px;
+}
+QWidget#frmPtzPlan QWidget#widget_2 QLabel#label{
+	background:#424242;
+	min-height:15px;
+	min-width:15px;
+	max-height:15px;
+	max-width:15px;
+	color:#9EA0A5;
+	border-image:url(:/new/prefix1/other/image/ptz_name.png);
+}
+QWidget#frmPtzPlan QWidget#widget_3 QLabel#label_3{
+	background:#424242;
+	min-height:15px;
+	min-width:15px;
+	max-height:15px;
+	max-width:15px;
+	border-image:url(:/new/prefix1/other/image/ptz_nav.png);
+}
+QWidget#frmPtzPlan QWidget#widget_4 QLabel#label_4{
+	background:#424242;
+	min-height:15px;
+	min-width:15px;
+	max-height:15px;
+	max-width:15px;
+	border-image:url(:/new/prefix1/other/image/ptz_set.png);
+}
+/****地图模块****/
+QWidget#frmBaiduMap{
+	background-color:rgba(0,0,0,0);
+}
+QWidget#frmBaiduMap QWidget#widget_2{
+	background:#202021;
+}
+QWidget#frmBaiduMap QWidget#widget_3{
+	background:#2C2C2D;
+}
+QWidget#frmBaiduMap QWidget#widget_3 QPushButton{
+	background:#F79332;
+	color:#ffffff;
+	border:0px;
+	border-radius:3px;
+	min-height:30px;
+	min-width:90px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmBaiduMap QWidget#widget_3 QPushButton:pressed{
+	background:#4D4D4D;
+}
+QWidget#frmBaiduMap QWidget#widget_3 QLineEdit{
+	background:#202021;
+	color:#ffffff;
+	border:2px solid #6C6C6C;
+	border-radius:3px;
+	min-height:26px;
+	max-height:26px;
+	min-width:200px;
+	max-width:250px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+/****地图模块添加节点窗口****/
+QWidget#widget_mapaddnode{
+	background:#202021;
+}
+QWidget#widget_mapaddnode .QWidget{
+	background:#202021;
+}
+QWidget#widget_mapaddnode QWidget#widget_5 QLabel{
+	background:#202021;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#widget_mapaddnode QWidget#widget_2 QLabel{
+	background:#202021;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#widget_mapaddnode QWidget#widget_2 QLineEdit{
+	background:#202021;
+	color:#ffffff;
+	border:1px solid #6C6C6C;
+	min-height:26px;
+	min-width:120px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#widget_mapaddnode QWidget#widget_2 QPushButton{
+	background:#202021;
+	color:#ffffff;
+	min-height:30px;
+	min-width:60px;
+	border:2px solid #6C6C6C;
+	border-radius:3px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#widget_mapaddnode QWidget#widget_2 QPushButton:pressed{
+	background:#F79332;
+	border:0px;
+}
+QWidget#widget_mapaddnode QWidget#widget_2 QComboBox{
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#222226;
+	border:2px solid #6C6C6C;
+	border-radius:3px;
+	min-height:30px;
+	min-width:150px;
+}
+QWidget#widget_mapaddnode QWidget#widget_2 QComboBox QAbstractItemView{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+	selection-color:#ffffff;
+	selection-background-color:#F79332;
+}
+QWidget#widget_mapaddnode QWidget#widget_2 QComboBox::drop-down{
+	width:15px;
+	background:#222226;
+	border:0px; 
+}
+QWidget#widget_mapaddnode QWidget#widget_2 QComboBox::down-arrow{
+	image: url(:/new/prefix1/other/image/combo_downarrow.png);
+	height:15px;
+	width:15px;
+}
+/*****地图模块右键菜单窗口*****/
+QWidget#MapInfoWid QWidget#widget{
+	background:#202021;
+}
+QWidget#MapInfoWid QWidget#widget .QWidget{
+	background:#202021;
+}
+QWidget#MapInfoWid QWidget#widget QPushButton#btn_close{
+	background:#202021;
+	min-height:30px;
+	max-height:30px;
+	min-width:30px;
+	max-width:30px;
+	border:0px;
+	border-image:url(:/new/prefix1/other/image/close2.png);
+}
+QWidget#MapInfoWid QWidget#widget QLabel{
+	background:#202021;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#MapInfoWid QWidget#widget QLineEdit{
+	background:#202021;
+	color:#ffffff;
+	border:2px solid #6C6C6C;
+	border-radius:3px;
+	min-height:26px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#MapInfoWid QWidget#widget QWidget#widget_18 QPushButton{
+	background:#F79332;
+	color:#ffffff;
+	border:0px;
+	min-height:30px;
+	min-width:90px;
+	border-radius:3px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#MapInfoWid QWidget#widget QWidget#widget_18 QPushButton:pressed{
+	background:#6C6C6C;
+}
+/*****拓扑图*****/
+QWidget#TopoMenuWid{
+	background:#202021;
+}
+QWidget#TopoMenuWid .QWidget{
+	background:#202021;
+}
+QWidget#TopoMenuWid .QFrame{
+	background:#202021;
+	border:1px solid #6C6C6C;
+}
+QWidget#TopoMenuWid QLabel{
+	background:#202021;
+	color:#ffffff;
+	min-height:30px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#TopoMenuWid QPushButton#btn_close{
+	background:#202021;
+	color:#ffffff;
+	min-height:30px;
+	max-height:30px;
+	min-width:30px;
+	max-width:30px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	border-image:url(:/new/prefix1/other/image/close2.png);
+}
+QWidget#TopoMenuWid QLineEdit{
+	background:#202021;
+	color:#ffffff;
+	border:2px solid #6C6C6C;
+	border-radius:3px;
+	min-height:26px;
+	max-height:26px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#TopoMenuWid QWidget#widget_29 QPushButton{
+	background:#F79332;
+	color:#ffffff;
+	border:0px;
+	min-height:30px;
+	max-height:30px;
+	min-width:90px;
+	border-radius:3px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#TopoMenuWid QWidget#widget_29 QPushButton:pressed{
+	background:#6C6C6C;
+}
+/*****中控框架******/
+QWidget#frmCenterCtrlFrame{
+	background:#202021;
+}
+QWidget#frmCenterCtrlFrame .QFrame{
+	background:#202021;
+	border:0px;
+}
+QWidget#frmCenterCtrlFrame QWidget#widget{
+	background:#202021;
+}
+QWidget#frmCenterCtrlFrame QWidget#widget QPushButton#btn_openwid{
+	background:#202021;
+	border:0px;
+	min-height:40px;
+	min-width:40px;
+	max-height:40px;
+	max-width:40px;
+	border-image:url(:/new/prefix1/other/image/rightnvr1.png);
+}
+QWidget#frmCenterCtrlFrame QWidget#widget QPushButton#btn_openwid:hover{
+	background:#202021;
+	border:0px;
+	min-height:40px;
+	min-width:40px;
+	max-height:40px;
+	max-width:40px;
+	border-image:url(:/new/prefix1/other/image/rightnvr2.png);
+}
+QWidget#frmCenterCtrlFrame QWidget#widget_4{
+	background:#202021;
+}
+QWidget#frmCenterCtrlFrame QWidget#widget_3{
+	background:#202021;
+}
+QWidget#frmCenterCtrlFrame .QScrollArea{
+	background:#202021;
+	border:0px;
+}
+QWidget#frmCenterCtrlFrame .QScrollArea .QWidget{
+	background:#202021;
+}
+/*****中控小模块******/
+QWidget#Dis_CenterLittleWid{
+	background:#6C6C6C;
+}
+QWidget#Dis_CenterLittleWid QWidget#widget{
+	background:#2C2C2D;
+	border-radius:10px;
+}
+QWidget#Dis_CenterLittleWid QWidget#widget_2{
+	background:#2C2C2D;
+	border-radius:10px;
+}
+QWidget#Dis_CenterLittleWid QWidget#widget_2 .QLineEdit{
+	background:#2C2C2D;
+	color:#ffffff;
+	border:0px;
+	min-height:30px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#Dis_CenterLittleWid QWidget#widget_3{
+	background:#2C2C2D;
+}
+QWidget#Dis_CenterLittleWid QWidget#widget_3 .QWidget{
+	background:#2C2C2D;
+	border:0px;
+}
+QWidget#Dis_CenterLittleWid QWidget#widget_3 QScrollArea{
+	background:#2C2C2D;
+	border:0px;
+}
+/*****中控帘幕******/
+QWidget#Dis_CurtainCtrl{
+	background:#2C2C2D;
+}
+QWidget#Dis_CurtainCtrl .QWidget{
+	background:#2C2C2D;
+}
+QWidget#Dis_CurtainCtrl .QLabel{
+	background:#2C2C2D;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:14px;
+}
+QWidget#Dis_CurtainCtrl QPushButton#btn_down{
+	background:#2C2C2D;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:14px;
+	border:0px;
+	border-image:url(:/curtainimage/curtainctrlimage/curtain_down.png);
+}
+QWidget#Dis_CurtainCtrl QPushButton#btn_down:pressed{
+	background:#2C2C2D;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:14px;
+	border:0px;
+	border-image:url(:/curtainimage/curtainctrlimage/curtain_nowdown.png);
+}
+QWidget#Dis_CurtainCtrl QPushButton#btn_up{
+	background:#2C2C2D;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:14px;
+	border:0px;
+	border-image:url(:/curtainimage/curtainctrlimage/curtain_up.png);
+}
+QWidget#Dis_CurtainCtrl QPushButton#btn_up:pressed{
+	background:#2C2C2D;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:14px;
+	border:0px;
+	border-image:url(:/curtainimage/curtainctrlimage/curtain_nowup.png);
+}
+QWidget#Dis_CurtainCtrl QPushButton#btn_stop{
+	background:#2C2C2D;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:14px;
+	border:0px;
+	border-image:url(:/curtainimage/curtainctrlimage/curtain_stop.png);
+}
+QWidget#Dis_CurtainCtrl QPushButton#btn_stop:pressed{
+	background:#2C2C2D;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:14px;
+	border:0px;
+	border-image:url(:/curtainimage/curtainctrlimage/cu_stop_checked.png);
+}
+/*******修改大屏屏幕名字********/
+QFrame#frame_addChangeName{
+	background:#202021;
+	border:1px solid #6C6C6C;
+}
+QFrame#frame_addChangeName QWidget#widget{
+	background:#202021;
+	border:2px solid #6C6C6C;
+}
+QFrame#frame_addChangeName QWidget#widget .QWidget{
+	background:#202021;
+}
+QFrame#frame_addChangeName QWidget#widget QWidget#widget_2{
+	background:#202021;
+}
+QFrame#frame_addChangeName QWidget#widget QLabel{
+	background:#202021;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QFrame#frame_addChangeName QWidget#widget QLineEdit{
+	background:#202021;
+	color:#ffffff;
+	border:1px solid #6C6C6C;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+}
+QFrame#frame_addChangeName QPushButton{
+	background:#2C2C2D;
+	color:#ffffff;
+	border:2px solid #3C3C3C;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+	min-width:90px;
+}
+QFrame#frame_addChangeName QPushButton:pressed{
+	background:#F79332;
+	color:#ffffff;
+	border:0px;
+	border-radius:5px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+/******************中控设置模块***************/
+QWidget#Dis_CtrlSetWid{
+	background:#202021;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_4{
+	background:#2C2C2D;
+	border:0px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_4 QPushButton{
+	background:#2C2C2D;
+	color:#ffffff;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:60px;
+	min-width:90px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_4 QPushButton:checked{
+	background:#F79332;
+	color:#ffffff;
+	border:0px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:60px;
+	min-width:90px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36{
+	background:#2C2C2D;
+	border:0px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 .QWidget{
+	background:#2C2C2D;
+	border:0px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 QLabel{
+	background:#2C2C2D;
+	border:0px;
+	min-height:30px;
+	min-width:90px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 QLineEdit{
+	background:#222226;
+	border:0px;
+	border-radius:3px;
+	color:#ffffff;
+	min-height:30px;
+	min-width:120px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 QComboBox{
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	background:#222226;
+	border:0px;
+	border-radius:3px;
+	min-height:30px;
+	min-width:120px;
+	max-width:120px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 QComboBox QAbstractItemView{
+	background:#222226;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	min-height:30px;
+	selection-color:#ffffff;
+	selection-background-color:#F79332;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 QComboBox::drop-down{
+	width:15px;
+	background:#222226;
+	border:0px; 
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 QComboBox::down-arrow{
+	image: url(:/new/prefix1/other/image/combo_downarrow.png);
+	height:15px;
+	width:15px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 QSpinBox{
+	background:#222226;
+	border:0px;
+	border-radius:3px;
+	color:#ffffff;
+	min-height:30px;
+	min-width:120px;
+	max-height:120px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 QPlainTextEdit{
+	background:#222226;
+	border:0px;
+	border-radius:3px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 QPushButton{
+	background:#5C5C5C;
+	border:0px;
+	border-radius:3px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	min-height:30px;
+	min-width:60px;
+	font-size:12px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_36 QPushButton:pressed{
+	background:#F79332;
+	border:0px;
+	border-radius:3px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	min-height:30px;
+	min-width:60px;
+	font-size:12px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_35{
+	background:#2C2C2D;
+	border:0px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_35 .QWidget{
+	background:#2C2C2D;
+	border:0px;
+}
+QWidget#Dis_CtrlSetWid QWidget#page_3 .QWidget{
+	background:#202021;
+	border:0px;
+}
+QWidget#Dis_CtrlSetWid QWidget#page_4 .QWidget{
+	background:#202021;
+	border:0px;
+}
+QWidget#Dis_CtrlSetWid QWidget#page_5 .QWidget{
+	background:#202021;
+	border:0px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_41 QPushButton{
+	background:#5C5C5C;
+	border:0px;
+	border-radius:3px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	min-height:30px;
+	min-width:60px;
+	font-size:12px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_41 QPushButton:pressed{
+	background:#F79332;
+	border:0px;
+	border-radius:3px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	min-height:30px;
+	min-width:60px;
+	font-size:12px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_41 QLabel{
+	background:#2C2C2D;
+	border:0px;
+	color:#ffffff;
+	min-height:30px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_41 QLineEdit{
+	background:#222226;
+	border:0px;
+	border-radius:3px;
+	color:#ffffff;
+	min-height:30px;
+	min-width:30px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_74 QLabel{
+	background:#2C2C2D;
+	border:0px;
+	color:#ffffff;
+	min-height:30px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_74 QPushButton{
+	background:#5C5C5C;
+	border:0px;
+	border-radius:3px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	min-height:30px;
+	min-width:60px;
+	font-size:12px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_74 QPushButton:pressed{
+	background:#F79332;
+	border:0px;
+	border-radius:3px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	min-height:30px;
+	min-width:60px;
+	font-size:12px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_74 QSpinBox{
+	background:#222226;
+	border:0px;
+	border-radius:3px;
+	color:#ffffff;
+	min-height:30px;
+	min-width:60px;
+	max-height:60px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#Dis_CtrlSetWid QWidget#scrollAreaWidgetContents .QWidget{
+	background:#202021;
+	border:0px;
+	border-radius:3px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#Dis_CtrlSetWid QWidget#scrollAreaWidgetContents .QLineEdit{
+	background:#202021;
+	border:0px;
+	border-radius:3px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_up{
+	background:#202021;
+	border:0px;
+	border-image: url(:/cs_image/cs_image/cs_c_image/c_up_pressed.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_up:checked{
+	background:#202021;
+	border:0px;
+	border-image: url(:/cs_image/cs_image/cs_c_image/c_up.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_left{
+	background:#202021;
+	border:0px;
+	border-image: url(:/cs_image/cs_image/cs_c_image/c_left_pressed.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_left:checked{
+	background:#202021;
+	border:0px;
+	border-image: url(:/cs_image/cs_image/cs_c_image/c_left.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_right{
+	background:#202021;
+	border:0px;
+	border-image: url(:/cs_image/cs_image/cs_c_image/c_right_pressed.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_right:checked{
+	background:#202021;
+	border:0px;
+	border-image: url(:/cs_image/cs_image/cs_c_image/c_right.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_down{
+	background:#202021;
+	border:0px;
+	border-image: url(:/cs_image/cs_image/cs_c_image/c_down_pressed.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_down:checked{
+	background:#202021;
+	border:0px;
+	border-image: url(:/cs_image/cs_image/cs_c_image/c_down.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_reset{
+	background:#202021;
+	border:0px;
+	color:#ffffff;
+	border-image: url(:/cs_image/cs_image/cs_c_image/c_stop_pressed.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_reset:checked{
+	background:#202021;
+	border:0px;
+	color:#ffffff;
+	border-image: url(:/cs_image/cs_image/cs_c_image/c_stop.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_subfocal{
+	background:#202021;
+	border:0px;
+	color:#ffffff;
+	border-image: url(:/cs_image/cs_image/cs_c_image/c_sub_pressed.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_subfocal:checked{
+	background:#202021;
+	border:0px;
+	color:#ffffff;
+	border-image: url(:/cs_image/cs_image/cs_c_image/c_sub.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_addfocal{
+	background:#202021;
+	border:0px;
+	color:#ffffff;
+	border-image: url(:/cs_image/cs_image/cs_c_image/c_add_pressed.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_48 QPushButton#btn_camera_addfocal:checked{
+	background:#202021;
+	border:0px;
+	color:#ffffff;
+	border-image: url(:/cs_image/cs_image/cs_c_image/c_add.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_56 QPushButton{
+	background:#5C5C5C;
+	border:0px;
+	border-radius:3px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	min-height:30px;
+	min-width:60px;
+	font-size:12px;
+}
+QWidget#Dis_CtrlSetWid QWidget#widget_56 QPushButton:checked{
+	background:#F79332;
+	border:0px;
+	border-radius:3px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	min-height:30px;
+	min-width:60px;
+	font-size:12px;
+}
+QWidget#Dis_CtrlSetWid QWidget#page_4 QLabel{
+	background:#202021;
+	border:0px;
+	color:#ffffff;
+	min-height:30px;
+}
+QWidget#Dis_CtrlSetWid QWidget#page_5 QLabel{
+	background:#202021;
+	border:0px;
+	color:#ffffff;
+	min-height:30px;
+}
+QWidget#Dis_CtrlSetWid QWidget#page_5 QLabel#label_curtain{
+	background:#202021;
+	border:0px;
+	color:#ffffff;
+	min-height:100px;
+	min-width:100px;
+	border-image: url(:/cs_image/cs_image/cs_cu_image/curtain_close.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#page_5 QPushButton#btn_curtaindown{
+	background:#202021;
+	border:0px;
+	color:#ffffff;
+	border-image: url(:/cs_image/cs_image/cs_cu_image/cu_down.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#page_5 QPushButton#btn_curtaindown:checked{
+	background:#202021;
+	border:0px;
+	color:#ffffff;
+	border-image: url(:/cs_image/cs_image/cs_cu_image/cu_down_checked.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#page_5 QPushButton#btn_curtainup{
+	background:#202021;
+	border:0px;
+	color:#ffffff;
+	border-image: url(:/cs_image/cs_image/cs_cu_image/cu_up.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#page_5 QPushButton#btn_curtainup:checked{
+	background:#202021;
+	border:0px;
+	color:#ffffff;
+	border-image: url(:/cs_image/cs_image/cs_cu_image/cu_up_checked.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#page_5 QPushButton#btn_curtainstop{
+	background:#202021;
+	border:0px;
+	color:#ffffff;
+	border-image: url(:/cs_image/cs_image/cs_cu_image/cu_stop.png);
+}
+QWidget#Dis_CtrlSetWid QWidget#page_5 QPushButton#btn_curtainstop:checked{
+	background:#202021;
+	border:0px;
+	color:#ffffff;
+	border-image: url(:/cs_image/cs_image/cs_cu_image/cu_stop_checked.png);
+}
+/***********漫游窗口***********/
+QWidget#frmScene QWidget{
+	background:#2C2C2D;
+	color:rgb(255,255,255);
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+/*************无按钮提示窗口***********/
+QWidget#frmPopupWid QFrame#frame{
+	color:#ffffff;
+	background:#202021;
+	border:1px solid #6C6C6C;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+QWidget#frmPopupWid QWidget#widget_2 QLabel{
+	color:#ffffff;
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:14px;
+}
+QWidget#frmPopupWid QWidget#widget_3 QLabel{
+	color:#ffffff;
+	background:#202021;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}

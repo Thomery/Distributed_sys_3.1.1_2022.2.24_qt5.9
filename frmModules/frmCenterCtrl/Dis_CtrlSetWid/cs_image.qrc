@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/cs_image">
+        <file>cs_image/cs_c_image/c_add.png</file>
+        <file>cs_image/cs_c_image/c_add_pressed.png</file>
+        <file>cs_image/cs_c_image/c_down.png</file>
+        <file>cs_image/cs_c_image/c_down_pressed.png</file>
+        <file>cs_image/cs_c_image/c_left.png</file>
+        <file>cs_image/cs_c_image/c_left_pressed.png</file>
+        <file>cs_image/cs_c_image/c_right.png</file>
+        <file>cs_image/cs_c_image/c_right_pressed.png</file>
+        <file>cs_image/cs_c_image/c_stop.png</file>
+        <file>cs_image/cs_c_image/c_stop_pressed.png</file>
+        <file>cs_image/cs_c_image/c_sub.png</file>
+        <file>cs_image/cs_c_image/c_sub_pressed.png</file>
+        <file>cs_image/cs_c_image/c_up.png</file>
+        <file>cs_image/cs_c_image/c_up_pressed.png</file>
+        <file>cs_image/cs_p_image/powerclose.png</file>
+        <file>cs_image/cs_p_image/poweropen.png</file>
+        <file>cs_image/cs_l_image/light_close.png</file>
+        <file>cs_image/cs_l_image/light_open.png</file>
+        <file>cs_image/cs_l_image/light_powerclose.png</file>
+        <file>cs_image/cs_l_image/light_poweropen.png</file>
+		<file>cs_image/cs_cu_image/curtain_close.png</file>
+        <file>cs_image/cs_cu_image/cu_down_checked.png</file>
+        <file>cs_image/cs_cu_image/cu_stop.png</file>
+        <file>cs_image/cs_cu_image/cu_stop_checked.png</file>
+        <file>cs_image/cs_cu_image/cu_up_checked.png</file>
+        <file>cs_image/cs_cu_image/cu_down.png</file>
+        <file>cs_image/cs_cu_image/cu_up.png</file>
+    </qresource>
+</RCC>

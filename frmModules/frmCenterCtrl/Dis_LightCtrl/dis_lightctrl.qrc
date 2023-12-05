@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/lightimage">
+        <file>lightctrlimage/light_close.png</file>
+        <file>lightctrlimage/light_open.png</file>
+        <file>lightctrlimage/light_powerclose.png</file>
+        <file>lightctrlimage/light_poweropen.png</file>
+    </qresource>
+</RCC>

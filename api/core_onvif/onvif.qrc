@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>send/getCapabilities.xml</file>
+        <file>send/getDeviceInfo.xml</file>
+        <file>send/getMedia.xml</file>
+        <file>send/getProfiles.xml</file>
+        <file>send/getPtz.xml</file>
+        <file>send/getServices.xml</file>
+        <file>send/getStreamUri.xml</file>
+        <file>send/moveAbsolute.xml</file>
+        <file>send/moveRelative.xml</file>
+        <file>send/searchDevice1.xml</file>
+        <file>send/searchDevice2.xml</file>
+        <file>send/searchDevice3.xml</file>
+        <file>send/searchDevice4.xml</file>
+        <file>send/systemReboot.xml</file>
+        <file>send/moveStop.xml</file>
+        <file>send/getPresets.xml</file>
+        <file>send/getEvent.xml</file>
+        <file>send/pullMessage.xml</file>
+        <file>send/pullMessage2.xml</file>
+        <file>send/getSnapshotUri.xml</file>
+        <file>send/getProfiles_digest.xml</file>
+    </qresource>
+</RCC>
